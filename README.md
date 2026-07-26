@@ -1,2 +1,9 @@
-# Cyntals-DungeonCraft
-Cyntal’s DungeonCraft is a Fabric mod for building immersive dungeons, ruins, and adventure maps with custom limestone blocks, specialized doors, hidden mechanisms, concealed Copper Wire, redstone-compatible systems, and classic dungeon-crawler-inspired features. Currently in active alpha development.
+# Example Mod
+
+## Setup
+
+For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+
+## License
+
+This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
