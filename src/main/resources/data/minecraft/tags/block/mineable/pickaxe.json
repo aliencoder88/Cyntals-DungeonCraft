@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "dungeoncraft:aged_limestone_bricks",
+    "dungeoncraft:limestone_fieldstone",
+    "dungeoncraft:aged_limestone",
+    "dungeoncraft:column",
+    "dungeoncraft:column_base",
+    "dungeoncraft:column_top",
+    "dungeoncraft:flanked_column",
+    "dungeoncraft:arched_window",
+    "dungeoncraft:iron_pocket_door",
+    "dungeoncraft:iron_lever",
+    "dungeoncraft:rusted_metal_sign",
+    "dungeoncraft:hidden_block_lever"
+  ]
+}

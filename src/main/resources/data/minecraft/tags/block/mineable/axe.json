@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "dungeoncraft:basic_treasure_chest",
+    "dungeoncraft:ledged_door",
+    "dungeoncraft:stonekeep_low_dungeon_chest"
+  ]
+}
