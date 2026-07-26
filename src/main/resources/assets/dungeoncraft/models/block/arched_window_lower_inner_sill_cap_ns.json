@@ -1,0 +1,19 @@
+{
+  "textures": {
+    "particle": "dungeoncraft:block/aged_limestone_bricks",
+    "stone": "dungeoncraft:block/aged_limestone_bricks"
+  },
+  "elements": [
+    {
+      "name": "world_aligned_inner_sill_top",
+      "from": [3.25, 2.99, 0],
+      "to": [12.75, 3.0, 16],
+      "faces": {
+        "up": {
+          "uv": [3.25, 0, 12.75, 16],
+          "texture": "#stone"
+        }
+      }
+    }
+  ]
+}

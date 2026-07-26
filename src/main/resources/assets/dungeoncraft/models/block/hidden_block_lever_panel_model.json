@@ -1,0 +1,48 @@
+{
+  "format_version": "1.21.11",
+  "credit": "DungeonCraft Hidden Block Lever moving lower panel",
+  "texture_size": [
+    16,
+    16
+  ],
+  "ambientocclusion": false,
+  "textures": {
+    "stone": "dungeoncraft:block/aged_limestone_bricks",
+    "particle": "dungeoncraft:block/aged_limestone_bricks"
+  },
+  "elements": [
+    {
+      "name": "panel_front",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        8,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            8,
+            16,
+            16
+          ],
+          "texture": "#stone"
+        },
+        "south": {
+          "uv": [
+            0,
+            8,
+            16,
+            16
+          ],
+          "texture": "#stone"
+        }
+      }
+    }
+  ]
+}

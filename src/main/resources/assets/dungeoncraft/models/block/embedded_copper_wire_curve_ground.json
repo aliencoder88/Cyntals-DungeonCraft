@@ -1,0 +1,400 @@
+{
+  "credit": "DungeonCraft Embedded Copper Wire embedded_copper_wire_curve_ground \u2014 exact 0.01/0.015 profile",
+  "ambientocclusion": false,
+  "textures": {
+    "copper": "minecraft:block/copper_block",
+    "particle": "minecraft:block/copper_block"
+  },
+  "elements": [
+    {
+      "name": "north_arm_main",
+      "from": [
+        7.86,
+        0.0,
+        0.0
+      ],
+      "to": [
+        8.14,
+        0.01,
+        4.08
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "north_arm_top",
+      "from": [
+        7.93,
+        0.01,
+        0.0
+      ],
+      "to": [
+        8.07,
+        0.015,
+        4.08
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "curve_1_main",
+      "from": [
+        8.2401,
+        0.0,
+        3.8644
+      ],
+      "to": [
+        8.5201,
+        0.01,
+        5.9708
+      ],
+      "rotation": {
+        "angle": 22.5,
+        "axis": "y",
+        "origin": [
+          8.3801,
+          8.0,
+          4.9176
+        ],
+        "rescale": false
+      },
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "curve_1_top",
+      "from": [
+        8.3101,
+        0.01,
+        3.8644
+      ],
+      "to": [
+        8.4501,
+        0.015,
+        5.9708
+      ],
+      "rotation": {
+        "angle": 22.5,
+        "axis": "y",
+        "origin": [
+          8.3801,
+          8.0,
+          4.9176
+        ],
+        "rescale": false
+      },
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "curve_2_main",
+      "from": [
+        8.4093,
+        0.0,
+        6.3975
+      ],
+      "to": [
+        10.5157,
+        0.01,
+        6.6775
+      ],
+      "rotation": {
+        "angle": -45.0,
+        "axis": "y",
+        "origin": [
+          9.4625,
+          8.0,
+          6.5375
+        ],
+        "rescale": false
+      },
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "curve_2_top",
+      "from": [
+        8.4093,
+        0.01,
+        6.4675
+      ],
+      "to": [
+        10.5157,
+        0.015,
+        6.6075
+      ],
+      "rotation": {
+        "angle": -45.0,
+        "axis": "y",
+        "origin": [
+          9.4625,
+          8.0,
+          6.5375
+        ],
+        "rescale": false
+      },
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "curve_3_main",
+      "from": [
+        10.0292,
+        0.0,
+        7.4799
+      ],
+      "to": [
+        12.1356,
+        0.01,
+        7.7599
+      ],
+      "rotation": {
+        "angle": -22.5,
+        "axis": "y",
+        "origin": [
+          11.0824,
+          8.0,
+          7.6199
+        ],
+        "rescale": false
+      },
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "curve_3_top",
+      "from": [
+        10.0292,
+        0.01,
+        7.5499
+      ],
+      "to": [
+        12.1356,
+        0.015,
+        7.6899
+      ],
+      "rotation": {
+        "angle": -22.5,
+        "axis": "y",
+        "origin": [
+          11.0824,
+          8.0,
+          7.6199
+        ],
+        "rescale": false
+      },
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "east_arm_main",
+      "from": [
+        11.92,
+        0.0,
+        7.86
+      ],
+      "to": [
+        16.0,
+        0.01,
+        8.14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "east_arm_top",
+      "from": [
+        11.92,
+        0.01,
+        7.93
+      ],
+      "to": [
+        16.0,
+        0.015,
+        8.07
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    }
+  ]
+}

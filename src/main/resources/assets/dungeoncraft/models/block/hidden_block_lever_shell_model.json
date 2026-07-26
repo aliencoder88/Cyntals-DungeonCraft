@@ -1,0 +1,333 @@
+{
+  "format_version": "1.21.11",
+  "credit": "DungeonCraft Hidden Block Lever - sealed front return edges for inset cavity walls",
+  "texture_size": [
+    16,
+    16
+  ],
+  "ambientocclusion": true,
+  "textures": {
+    "stone": "dungeoncraft:block/aged_limestone_bricks",
+    "particle": "dungeoncraft:block/aged_limestone_bricks"
+  },
+  "elements": [
+    {
+      "name": "shell_top",
+      "from": [
+        0,
+        8,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            8
+          ],
+          "texture": "#stone",
+          "cullface": "north"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            8
+          ],
+          "texture": "#stone",
+          "cullface": "east"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            8
+          ],
+          "texture": "#stone",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            8
+          ],
+          "texture": "#stone",
+          "cullface": "west"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#stone",
+          "cullface": "up"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#stone"
+        }
+      }
+    },
+    {
+      "name": "exterior_bottom",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        0,
+        16
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#stone",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "exterior_left_lower",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        0,
+        8,
+        16
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0,
+            8,
+            16,
+            16
+          ],
+          "texture": "#stone",
+          "cullface": "west"
+        }
+      }
+    },
+    {
+      "name": "exterior_right_lower",
+      "from": [
+        16,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        8,
+        16
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0,
+            8,
+            16,
+            16
+          ],
+          "texture": "#stone",
+          "cullface": "east"
+        }
+      }
+    },
+    {
+      "name": "exterior_back_lower",
+      "from": [
+        0,
+        0,
+        16
+      ],
+      "to": [
+        16,
+        8,
+        16
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            0,
+            8,
+            16,
+            16
+          ],
+          "texture": "#stone",
+          "cullface": "south"
+        }
+      }
+    },
+    {
+      "name": "interior_floor",
+      "from": [
+        0,
+        0.02,
+        0
+      ],
+      "to": [
+        16,
+        0.02,
+        12.02
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            12
+          ],
+          "texture": "#stone"
+        }
+      }
+    },
+    {
+      "name": "interior_left_wall",
+      "from": [
+        0.02,
+        0,
+        0
+      ],
+      "to": [
+        0.02,
+        8,
+        12.02
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0,
+            8,
+            12,
+            16
+          ],
+          "texture": "#stone"
+        }
+      }
+    },
+    {
+      "name": "interior_right_wall",
+      "from": [
+        15.98,
+        0,
+        0
+      ],
+      "to": [
+        15.98,
+        8,
+        12.02
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0,
+            8,
+            12,
+            16
+          ],
+          "texture": "#stone"
+        }
+      }
+    },
+    {
+      "name": "interior_left_front_return",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        0.02,
+        8,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            8,
+            1,
+            16
+          ],
+          "texture": "#stone"
+        }
+      }
+    },
+    {
+      "name": "interior_right_front_return",
+      "from": [
+        15.98,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        8,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15,
+            8,
+            16,
+            16
+          ],
+          "texture": "#stone"
+        }
+      }
+    },
+    {
+      "name": "interior_back",
+      "from": [
+        0,
+        0,
+        12
+      ],
+      "to": [
+        16,
+        8,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            8,
+            16,
+            16
+          ],
+          "texture": "#stone"
+        }
+      }
+    }
+  ]
+}

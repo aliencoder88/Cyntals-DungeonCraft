@@ -1,0 +1,76 @@
+{
+  "credit": "DungeonCraft Embedded Copper Wire straight_ground \u2014 exact user-approved profile",
+  "ambientocclusion": false,
+  "textures": {
+    "copper": "minecraft:block/copper_block",
+    "particle": "minecraft:block/copper_block"
+  },
+  "elements": [
+    {
+      "name": "straight_ground_main",
+      "from": [
+        7.86,
+        0.0,
+        0.0
+      ],
+      "to": [
+        8.14,
+        0.01,
+        16.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "straight_ground_top",
+      "from": [
+        7.93,
+        0.01,
+        0.0
+      ],
+      "to": [
+        8.07,
+        0.015,
+        16.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    }
+  ]
+}

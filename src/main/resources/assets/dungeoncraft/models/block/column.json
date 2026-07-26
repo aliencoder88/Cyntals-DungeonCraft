@@ -1,0 +1,75 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "dungeoncraft:block/column",
+    "stone": "dungeoncraft:block/column",
+    "sstone": "dungeoncraft:block/aged_limestone"
+  },
+  "elements": [
+    {
+      "name": "column_core",
+      "from": [4, 0, 4],
+      "to": [12, 16, 12],
+      "faces": {
+        "north": { "texture": "#stone" },
+        "south": { "texture": "#stone" },
+        "east": { "texture": "#stone" },
+        "west": { "texture": "#stone" },
+        "up": { "texture": "#sstone" },
+        "down": { "texture": "#sstone" }
+      }
+    },
+    {
+      "name": "north_side",
+      "from": [5, 0, 3],
+      "to": [11, 16, 4],
+      "faces": {
+        "north": { "texture": "#stone" },
+        "south": { "texture": "#stone" },
+        "east": { "texture": "#stone" },
+        "west": { "texture": "#stone" },
+        "up": { "texture": "#sstone" },
+        "down": { "texture": "#sstone" }
+      }
+    },
+    {
+      "name": "south_side",
+      "from": [5, 0, 12],
+      "to": [11, 16, 13],
+      "faces": {
+        "north": { "texture": "#stone" },
+        "south": { "texture": "#stone" },
+        "east": { "texture": "#stone" },
+        "west": { "texture": "#stone" },
+        "up": { "texture": "#sstone" },
+        "down": { "texture": "#sstone" }
+      }
+    },
+    {
+      "name": "west_side",
+      "from": [3, 0, 5],
+      "to": [4, 16, 11],
+      "faces": {
+        "north": { "texture": "#stone" },
+        "south": { "texture": "#stone" },
+        "east": { "texture": "#stone" },
+        "west": { "texture": "#stone" },
+        "up": { "texture": "#sstone" },
+        "down": { "texture": "#sstone" }
+      }
+    },
+    {
+      "name": "east_side",
+      "from": [12, 0, 5],
+      "to": [13, 16, 11],
+      "faces": {
+        "north": { "texture": "#stone" },
+        "south": { "texture": "#stone" },
+        "east": { "texture": "#stone" },
+        "west": { "texture": "#stone" },
+        "up": { "texture": "#sstone" },
+        "down": { "texture": "#sstone" }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1132 @@
+{
+  "credit": "DungeonCraft Copper Wire isolated spiral V6 - four turns, 0.28W x 0.12H main, 0.14W x 0.075H top, 0.075 gap",
+  "ambientocclusion": false,
+  "textures": {
+    "copper": "minecraft:block/copper_block",
+    "particle": "minecraft:block/copper_block"
+  },
+  "elements": [
+    {
+      "name": "spiral_segment_01_horizontal_main",
+      "from": [
+        7.86,
+        0.05,
+        7.86
+      ],
+      "to": [
+        8.495,
+        0.17,
+        8.14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_01_horizontal_top",
+      "from": [
+        7.93,
+        0.17,
+        7.93
+      ],
+      "to": [
+        8.425,
+        0.245,
+        8.07
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_02_vertical_main",
+      "from": [
+        8.215,
+        0.05,
+        7.86
+      ],
+      "to": [
+        8.495,
+        0.17,
+        8.495
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_02_vertical_top",
+      "from": [
+        8.285,
+        0.17,
+        7.93
+      ],
+      "to": [
+        8.425,
+        0.245,
+        8.425
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_03_horizontal_main",
+      "from": [
+        7.505,
+        0.05,
+        8.215
+      ],
+      "to": [
+        8.495,
+        0.17,
+        8.495
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_03_horizontal_top",
+      "from": [
+        7.575,
+        0.17,
+        8.285
+      ],
+      "to": [
+        8.425,
+        0.245,
+        8.425
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_04_vertical_main",
+      "from": [
+        7.505,
+        0.05,
+        7.505
+      ],
+      "to": [
+        7.785,
+        0.17,
+        8.495
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_04_vertical_top",
+      "from": [
+        7.575,
+        0.17,
+        7.575
+      ],
+      "to": [
+        7.715,
+        0.245,
+        8.425
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_05_horizontal_main",
+      "from": [
+        7.505,
+        0.05,
+        7.505
+      ],
+      "to": [
+        8.85,
+        0.17,
+        7.785
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_05_horizontal_top",
+      "from": [
+        7.575,
+        0.17,
+        7.575
+      ],
+      "to": [
+        8.78,
+        0.245,
+        7.715
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_06_vertical_main",
+      "from": [
+        8.57,
+        0.05,
+        7.505
+      ],
+      "to": [
+        8.85,
+        0.17,
+        8.85
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_06_vertical_top",
+      "from": [
+        8.64,
+        0.17,
+        7.575
+      ],
+      "to": [
+        8.78,
+        0.245,
+        8.78
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_07_horizontal_main",
+      "from": [
+        7.15,
+        0.05,
+        8.57
+      ],
+      "to": [
+        8.85,
+        0.17,
+        8.85
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_07_horizontal_top",
+      "from": [
+        7.22,
+        0.17,
+        8.64
+      ],
+      "to": [
+        8.78,
+        0.245,
+        8.78
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_08_vertical_main",
+      "from": [
+        7.15,
+        0.05,
+        7.15
+      ],
+      "to": [
+        7.43,
+        0.17,
+        8.85
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_08_vertical_top",
+      "from": [
+        7.22,
+        0.17,
+        7.22
+      ],
+      "to": [
+        7.36,
+        0.245,
+        8.78
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_09_horizontal_main",
+      "from": [
+        7.15,
+        0.05,
+        7.15
+      ],
+      "to": [
+        9.205,
+        0.17,
+        7.43
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_09_horizontal_top",
+      "from": [
+        7.22,
+        0.17,
+        7.22
+      ],
+      "to": [
+        9.135,
+        0.245,
+        7.36
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_10_vertical_main",
+      "from": [
+        8.925,
+        0.05,
+        7.15
+      ],
+      "to": [
+        9.205,
+        0.17,
+        9.205
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_10_vertical_top",
+      "from": [
+        8.995,
+        0.17,
+        7.22
+      ],
+      "to": [
+        9.135,
+        0.245,
+        9.135
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_11_horizontal_main",
+      "from": [
+        6.795,
+        0.05,
+        8.925
+      ],
+      "to": [
+        9.205,
+        0.17,
+        9.205
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_11_horizontal_top",
+      "from": [
+        6.865,
+        0.17,
+        8.995
+      ],
+      "to": [
+        9.135,
+        0.245,
+        9.135
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_12_vertical_main",
+      "from": [
+        6.795,
+        0.05,
+        6.795
+      ],
+      "to": [
+        7.075,
+        0.17,
+        9.205
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_12_vertical_top",
+      "from": [
+        6.865,
+        0.17,
+        6.865
+      ],
+      "to": [
+        7.005,
+        0.245,
+        9.135
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_13_horizontal_main",
+      "from": [
+        6.795,
+        0.05,
+        6.795
+      ],
+      "to": [
+        9.56,
+        0.17,
+        7.075
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_13_horizontal_top",
+      "from": [
+        6.865,
+        0.17,
+        6.865
+      ],
+      "to": [
+        9.49,
+        0.245,
+        7.005
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_14_vertical_main",
+      "from": [
+        9.28,
+        0.05,
+        6.795
+      ],
+      "to": [
+        9.56,
+        0.17,
+        9.56
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_14_vertical_top",
+      "from": [
+        9.35,
+        0.17,
+        6.865
+      ],
+      "to": [
+        9.49,
+        0.245,
+        9.49
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_15_horizontal_main",
+      "from": [
+        6.44,
+        0.05,
+        9.28
+      ],
+      "to": [
+        9.56,
+        0.17,
+        9.56
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_15_horizontal_top",
+      "from": [
+        6.51,
+        0.17,
+        9.35
+      ],
+      "to": [
+        9.49,
+        0.245,
+        9.49
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_16_vertical_main",
+      "from": [
+        6.44,
+        0.05,
+        6.44
+      ],
+      "to": [
+        6.72,
+        0.17,
+        9.56
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_16_vertical_top",
+      "from": [
+        6.51,
+        0.17,
+        6.51
+      ],
+      "to": [
+        6.65,
+        0.245,
+        9.49
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_17_horizontal_main",
+      "from": [
+        6.44,
+        0.05,
+        6.44
+      ],
+      "to": [
+        7.075,
+        0.17,
+        6.72
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "spiral_segment_17_horizontal_top",
+      "from": [
+        6.51,
+        0.17,
+        6.51
+      ],
+      "to": [
+        7.005,
+        0.245,
+        6.65
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    }
+  ]
+}

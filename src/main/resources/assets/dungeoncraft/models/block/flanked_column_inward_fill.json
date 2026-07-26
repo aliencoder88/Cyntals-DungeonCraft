@@ -1,0 +1,30 @@
+{
+  "textures": {
+    "particle": "dungeoncraft:block/aged_limestone_bricks",
+    "fill": "dungeoncraft:block/aged_limestone_bricks"
+  },
+  "elements": [
+    {
+      "name": "north_inward_panel",
+      "from": [0, 0, 1],
+      "to": [16, 16, 1.01],
+      "faces": {
+        "south": {
+          "uv": [0, 0, 16, 16],
+          "texture": "#fill"
+        }
+      }
+    },
+    {
+      "name": "south_inward_panel",
+      "from": [0, 0, 14.99],
+      "to": [16, 16, 15],
+      "faces": {
+        "north": {
+          "uv": [0, 0, 16, 16],
+          "texture": "#fill"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "credit": "Internal Covered Embedded Copper Wire fallback. World geometry is supplied by CoveredEmbeddedCopperWireModel.",
+  "ambientocclusion": true,
+  "textures": {
+    "particle": "dungeoncraft:block/aged_limestone"
+  },
+  "elements": []
+}

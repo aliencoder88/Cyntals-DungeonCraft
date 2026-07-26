@@ -1,0 +1,208 @@
+{
+  "credit": "DungeonCraft Phase 4C complete Copper Wire node. Every bit in up_mask has its own wall-climbing segment.",
+  "ambientocclusion": false,
+  "textures": {
+    "copper": "minecraft:block/copper_block",
+    "particle": "minecraft:block/copper_block"
+  },
+  "elements": [
+    {
+      "name": "straight_ground_main",
+      "from": [
+        7.86,
+        0.0,
+        0.0
+      ],
+      "to": [
+        8.14,
+        0.01,
+        16.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "straight_ground_top",
+      "from": [
+        7.93,
+        0.01,
+        0.0
+      ],
+      "to": [
+        8.07,
+        0.015,
+        16.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "embedded_copper_wire_links_5_up_5_north_embedded_copper_wire_up_one_embedded_north_wall_up_main",
+      "from": [
+        7.86,
+        0.0,
+        0.0
+      ],
+      "to": [
+        8.14,
+        16.0,
+        0.01
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "embedded_copper_wire_links_5_up_5_north_embedded_copper_wire_up_one_embedded_north_wall_up_top",
+      "from": [
+        7.93,
+        0.0,
+        0.01
+      ],
+      "to": [
+        8.07,
+        16.0,
+        0.015
+      ],
+      "faces": {
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "embedded_copper_wire_links_5_up_5_south_embedded_copper_wire_up_one_embedded_north_wall_up_main",
+      "from": [
+        7.86,
+        0.0,
+        15.99
+      ],
+      "to": [
+        8.14,
+        16.0,
+        16.0
+      ],
+      "faces": {
+        "south": {
+          "texture": "#copper"
+        },
+        "north": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "embedded_copper_wire_links_5_up_5_south_embedded_copper_wire_up_one_embedded_north_wall_up_top",
+      "from": [
+        7.93,
+        0.0,
+        15.985
+      ],
+      "to": [
+        8.07,
+        16.0,
+        15.99
+      ],
+      "faces": {
+        "south": {
+          "texture": "#copper"
+        },
+        "north": {
+          "texture": "#copper"
+        },
+        "west": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "format_version": "1.21.11",
+  "credit": "DungeonCraft Hidden Block Lever pull bar",
+  "texture_size": [
+    64,
+    64
+  ],
+  "ambientocclusion": false,
+  "textures": {
+    "mechanism": "dungeoncraft:block/hidden_block_mechanism",
+    "particle": "dungeoncraft:block/hidden_block_mechanism"
+  },
+  "elements": [
+    {
+      "name": "lever_stem_left",
+      "from": [
+        11,
+        3.5,
+        11
+      ],
+      "to": [
+        12,
+        8.5,
+        12
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            3.5,
+            3.75,
+            3.75,
+            5.0
+          ],
+          "texture": "#mechanism"
+        },
+        "north": {
+          "uv": [
+            3.75,
+            3.75,
+            4.0,
+            5.0
+          ],
+          "texture": "#mechanism"
+        },
+        "east": {
+          "uv": [
+            4.0,
+            3.75,
+            4.25,
+            5.0
+          ],
+          "texture": "#mechanism"
+        },
+        "south": {
+          "uv": [
+            4.25,
+            3.75,
+            4.5,
+            5.0
+          ],
+          "texture": "#mechanism"
+        },
+        "up": {
+          "uv": [
+            3.75,
+            3.5,
+            4.0,
+            3.75
+          ],
+          "texture": "#mechanism"
+        },
+        "down": {
+          "uv": [
+            4.0,
+            3.5,
+            4.25,
+            3.75
+          ],
+          "texture": "#mechanism"
+        }
+      }
+    },
+    {
+      "name": "lever_stem_right",
+      "from": [
+        4,
+        3.5,
+        11
+      ],
+      "to": [
+        5,
+        8.5,
+        12
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            3.5,
+            3.75,
+            3.75,
+            5.0
+          ],
+          "texture": "#mechanism"
+        },
+        "north": {
+          "uv": [
+            3.75,
+            3.75,
+            4.0,
+            5.0
+          ],
+          "texture": "#mechanism"
+        },
+        "east": {
+          "uv": [
+            4.0,
+            3.75,
+            4.25,
+            5.0
+          ],
+          "texture": "#mechanism"
+        },
+        "south": {
+          "uv": [
+            4.25,
+            3.75,
+            4.5,
+            5.0
+          ],
+          "texture": "#mechanism"
+        },
+        "up": {
+          "uv": [
+            3.75,
+            3.5,
+            4.0,
+            3.75
+          ],
+          "texture": "#mechanism"
+        },
+        "down": {
+          "uv": [
+            4.0,
+            3.5,
+            4.25,
+            3.75
+          ],
+          "texture": "#mechanism"
+        }
+      }
+    },
+    {
+      "name": "lever_bar_grip",
+      "from": [
+        5,
+        7.5,
+        11
+      ],
+      "to": [
+        11,
+        8.5,
+        12
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0.0,
+            3.75,
+            0.25,
+            4.0
+          ],
+          "texture": "#mechanism"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            3.75,
+            1.75,
+            4.0
+          ],
+          "texture": "#mechanism"
+        },
+        "east": {
+          "uv": [
+            1.75,
+            3.75,
+            2.0,
+            4.0
+          ],
+          "texture": "#mechanism"
+        },
+        "south": {
+          "uv": [
+            2.0,
+            3.75,
+            3.5,
+            4.0
+          ],
+          "texture": "#mechanism"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            3.5,
+            1.75,
+            3.75
+          ],
+          "texture": "#mechanism"
+        },
+        "down": {
+          "uv": [
+            1.75,
+            3.5,
+            3.25,
+            3.75
+          ],
+          "texture": "#mechanism"
+        }
+      }
+    }
+  ]
+}

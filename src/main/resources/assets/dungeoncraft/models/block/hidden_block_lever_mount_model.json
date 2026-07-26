@@ -1,0 +1,84 @@
+{
+  "format_version": "1.21.11",
+  "credit": "DungeonCraft Hidden Block Lever mount",
+  "texture_size": [
+    64,
+    64
+  ],
+  "ambientocclusion": false,
+  "textures": {
+    "mechanism": "dungeoncraft:block/hidden_block_mechanism",
+    "particle": "dungeoncraft:block/hidden_block_mechanism"
+  },
+  "elements": [
+    {
+      "name": "lever_mount",
+      "from": [
+        5,
+        3,
+        11
+      ],
+      "to": [
+        11,
+        5,
+        13
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0.0,
+            3.0,
+            0.5,
+            3.5
+          ],
+          "texture": "#mechanism"
+        },
+        "north": {
+          "uv": [
+            0.5,
+            3.0,
+            2.0,
+            3.5
+          ],
+          "texture": "#mechanism"
+        },
+        "east": {
+          "uv": [
+            2.0,
+            3.0,
+            2.5,
+            3.5
+          ],
+          "texture": "#mechanism"
+        },
+        "south": {
+          "uv": [
+            2.5,
+            3.0,
+            4.0,
+            3.5
+          ],
+          "texture": "#mechanism"
+        },
+        "up": {
+          "uv": [
+            0.5,
+            2.5,
+            2.0,
+            3.0
+          ],
+          "texture": "#mechanism"
+        },
+        "down": {
+          "uv": [
+            2.0,
+            2.5,
+            3.5,
+            3.0
+          ],
+          "texture": "#mechanism"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "textures": {
+    "particle": "dungeoncraft:block/aged_limestone_bricks",
+    "stone": "dungeoncraft:block/aged_limestone_bricks"
+  },
+  "elements": [
+    {
+      "name": "world_aligned_bottom_face",
+      "from": [0, 0, 0],
+      "to": [16, 0.01, 16],
+      "faces": {
+        "down": {
+          "uv": [0, 0, 16, 16],
+          "texture": "#stone"
+        }
+      }
+    }
+  ]
+}

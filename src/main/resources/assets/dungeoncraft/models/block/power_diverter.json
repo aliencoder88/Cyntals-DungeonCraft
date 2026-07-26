@@ -1,0 +1,72 @@
+{
+  "textures": {
+    "body": "minecraft:block/cut_copper",
+    "port": "minecraft:block/polished_blackstone",
+    "particle": "minecraft:block/cut_copper"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "down": { "texture": "#body", "cullface": "down" },
+        "up": { "texture": "#body", "cullface": "up" },
+        "north": { "texture": "#body", "cullface": "north" },
+        "south": { "texture": "#body", "cullface": "south" },
+        "west": { "texture": "#body", "cullface": "west" },
+        "east": { "texture": "#body", "cullface": "east" }
+      }
+    },
+    {
+      "from": [5, 5, -0.01],
+      "to": [11, 11, 1],
+      "faces": {
+        "north": { "texture": "#port" },
+        "up": { "texture": "#port" },
+        "down": { "texture": "#port" },
+        "west": { "texture": "#port" },
+        "east": { "texture": "#port" }
+      }
+    },
+    {
+      "from": [5, 5, 15],
+      "to": [11, 11, 16.01],
+      "faces": {
+        "south": { "texture": "#port" },
+        "up": { "texture": "#port" },
+        "down": { "texture": "#port" },
+        "west": { "texture": "#port" },
+        "east": { "texture": "#port" }
+      }
+    },
+    {
+      "from": [-0.01, 5, 5],
+      "to": [1, 11, 11],
+      "faces": {
+        "west": { "texture": "#port" },
+        "up": { "texture": "#port" },
+        "down": { "texture": "#port" },
+        "north": { "texture": "#port" },
+        "south": { "texture": "#port" }
+      }
+    },
+    {
+      "from": [15, 5, 5],
+      "to": [16.01, 11, 11],
+      "faces": {
+        "east": { "texture": "#port" },
+        "up": { "texture": "#port" },
+        "down": { "texture": "#port" },
+        "north": { "texture": "#port" },
+        "south": { "texture": "#port" }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [30, 225, 0],
+      "translation": [0, 0, 0],
+      "scale": [0.625, 0.625, 0.625]
+    }
+  }
+}

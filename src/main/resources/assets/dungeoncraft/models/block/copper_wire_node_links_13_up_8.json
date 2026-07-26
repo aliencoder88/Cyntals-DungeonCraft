@@ -1,0 +1,426 @@
+{
+  "credit": "DungeonCraft Phase 4C complete Copper Wire node. Every bit in up_mask has its own wall-climbing segment.",
+  "ambientocclusion": false,
+  "textures": {
+    "copper": "minecraft:block/copper_block",
+    "particle": "minecraft:block/copper_block"
+  },
+  "elements": [
+    {
+      "name": "north_arm_main",
+      "from": [
+        0.0,
+        0.05,
+        7.86
+      ],
+      "to": [
+        8.0,
+        0.17,
+        8.14
+      ],
+      "faces": {
+        "west": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "north_arm_top",
+      "from": [
+        0.0,
+        0.17,
+        7.93
+      ],
+      "to": [
+        8.0,
+        0.245,
+        8.07
+      ],
+      "faces": {
+        "west": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "west_arm_main",
+      "from": [
+        7.86,
+        0.05,
+        8.0
+      ],
+      "to": [
+        8.14,
+        0.17,
+        16.0
+      ],
+      "faces": {
+        "west": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "west_arm_top",
+      "from": [
+        7.93,
+        0.17,
+        8.0
+      ],
+      "to": [
+        8.07,
+        0.245,
+        16.0
+      ],
+      "faces": {
+        "west": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "east_arm_main",
+      "from": [
+        7.86,
+        0.05,
+        0.0
+      ],
+      "to": [
+        8.14,
+        0.17,
+        8.0
+      ],
+      "faces": {
+        "west": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "east_arm_top",
+      "from": [
+        7.93,
+        0.17,
+        0.0
+      ],
+      "to": [
+        8.07,
+        0.245,
+        8.0
+      ],
+      "faces": {
+        "west": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "hub_main",
+      "from": [
+        7.58,
+        0.05,
+        7.58
+      ],
+      "to": [
+        8.42,
+        0.17,
+        8.42
+      ],
+      "faces": {
+        "west": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "hub_top",
+      "from": [
+        7.76,
+        0.17,
+        7.76
+      ],
+      "to": [
+        8.24,
+        0.245,
+        8.24
+      ],
+      "faces": {
+        "west": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "knot_diagonal_main",
+      "from": [
+        7.86,
+        0.17,
+        7.425
+      ],
+      "to": [
+        8.14,
+        0.29,
+        8.575
+      ],
+      "rotation": {
+        "angle": 45.0,
+        "axis": "y",
+        "origin": [
+          8.0,
+          8.0,
+          8.0
+        ],
+        "rescale": false
+      },
+      "faces": {
+        "west": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "knot_diagonal_top",
+      "from": [
+        7.93,
+        0.29,
+        7.425
+      ],
+      "to": [
+        8.07,
+        0.365,
+        8.575
+      ],
+      "rotation": {
+        "angle": 45.0,
+        "axis": "y",
+        "origin": [
+          8.0,
+          8.0,
+          8.0
+        ],
+        "rescale": false
+      },
+      "faces": {
+        "west": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "copper_wire_links_13_up_8_west_copper_wire_up_one_north_wall_up_main",
+      "from": [
+        0.05,
+        0.05,
+        7.86
+      ],
+      "to": [
+        0.17,
+        16.0,
+        8.14
+      ],
+      "faces": {
+        "west": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    },
+    {
+      "name": "copper_wire_links_13_up_8_west_copper_wire_up_one_north_wall_up_top",
+      "from": [
+        0.17,
+        0.05,
+        7.93
+      ],
+      "to": [
+        0.245,
+        16.0,
+        8.07
+      ],
+      "faces": {
+        "west": {
+          "texture": "#copper"
+        },
+        "east": {
+          "texture": "#copper"
+        },
+        "north": {
+          "texture": "#copper"
+        },
+        "south": {
+          "texture": "#copper"
+        },
+        "up": {
+          "texture": "#copper"
+        },
+        "down": {
+          "texture": "#copper"
+        }
+      }
+    }
+  ]
+}

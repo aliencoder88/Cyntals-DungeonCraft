@@ -1,0 +1,141 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "dungeoncraft:block/column",
+    "stone": "dungeoncraft:block/column",
+    "sstone": "dungeoncraft:block/aged_limestone"
+  },
+  "elements": [
+    {
+      "name": "upper_base_core",
+      "from": [3, 12, 3],
+      "to": [13, 16, 13],
+      "faces": {
+        "north": { "texture": "#stone" },
+        "south": { "texture": "#stone" },
+        "east": { "texture": "#stone" },
+        "west": { "texture": "#stone" },
+        "up": { "texture": "#sstone" },
+        "down": { "texture": "#stone" }
+      }
+    },
+    {
+      "name": "upper_base_north_step",
+      "from": [4, 12, 2],
+      "to": [12, 16, 3],
+      "faces": {
+        "north": { "texture": "#stone" },
+        "south": { "texture": "#stone" },
+        "east": { "texture": "#stone" },
+        "west": { "texture": "#stone" },
+        "up": { "texture": "#sstone" },
+        "down": { "texture": "#stone" }
+      }
+    },
+    {
+      "name": "upper_base_south_step",
+      "from": [4, 12, 13],
+      "to": [12, 16, 14],
+      "faces": {
+        "north": { "texture": "#stone" },
+        "south": { "texture": "#stone" },
+        "east": { "texture": "#stone" },
+        "west": { "texture": "#stone" },
+        "up": { "texture": "#sstone" },
+        "down": { "texture": "#stone" }
+      }
+    },
+    {
+      "name": "upper_base_west_step",
+      "from": [2, 12, 4],
+      "to": [3, 16, 12],
+      "faces": {
+        "north": { "texture": "#stone" },
+        "south": { "texture": "#stone" },
+        "east": { "texture": "#stone" },
+        "west": { "texture": "#stone" },
+        "up": { "texture": "#sstone" },
+        "down": { "texture": "#stone" }
+      }
+    },
+    {
+      "name": "upper_base_east_step",
+      "from": [13, 12, 4],
+      "to": [14, 16, 12],
+      "faces": {
+        "north": { "texture": "#stone" },
+        "south": { "texture": "#stone" },
+        "east": { "texture": "#stone" },
+        "west": { "texture": "#stone" },
+        "up": { "texture": "#sstone" },
+        "down": { "texture": "#stone" }
+      }
+    },
+
+    {
+      "name": "lower_column_core",
+      "from": [4, 0, 4],
+      "to": [12, 12, 12],
+      "faces": {
+        "north": { "texture": "#stone" },
+        "south": { "texture": "#stone" },
+        "east": { "texture": "#stone" },
+        "west": { "texture": "#stone" },
+        "up": { "texture": "#sstone" },
+        "down": { "texture": "#sstone" }
+      }
+    },
+    {
+      "name": "lower_column_north_step",
+      "from": [5, 0, 3],
+      "to": [11, 12, 4],
+      "faces": {
+        "north": { "texture": "#stone" },
+        "south": { "texture": "#stone" },
+        "east": { "texture": "#stone" },
+        "west": { "texture": "#stone" },
+        "up": { "texture": "#sstone" },
+        "down": { "texture": "#sstone" }
+      }
+    },
+    {
+      "name": "lower_column_south_step",
+      "from": [5, 0, 12],
+      "to": [11, 12, 13],
+      "faces": {
+        "north": { "texture": "#stone" },
+        "south": { "texture": "#stone" },
+        "east": { "texture": "#stone" },
+        "west": { "texture": "#stone" },
+        "up": { "texture": "#sstone" },
+        "down": { "texture": "#sstone" }
+      }
+    },
+    {
+      "name": "lower_column_west_step",
+      "from": [3, 0, 5],
+      "to": [4, 12, 11],
+      "faces": {
+        "north": { "texture": "#stone" },
+        "south": { "texture": "#stone" },
+        "east": { "texture": "#stone" },
+        "west": { "texture": "#stone" },
+        "up": { "texture": "#sstone" },
+        "down": { "texture": "#sstone" }
+      }
+    },
+    {
+      "name": "lower_column_east_step",
+      "from": [12, 0, 5],
+      "to": [13, 12, 11],
+      "faces": {
+        "north": { "texture": "#stone" },
+        "south": { "texture": "#stone" },
+        "east": { "texture": "#stone" },
+        "west": { "texture": "#stone" },
+        "up": { "texture": "#sstone" },
+        "down": { "texture": "#sstone" }
+      }
+    }
+  ]
+}
