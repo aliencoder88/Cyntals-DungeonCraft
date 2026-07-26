@@ -1,0 +1,996 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "link_north": "false",
+        "link_east": "false",
+        "link_south": "false",
+        "link_west": "false",
+        "up_mask": "0"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_coil"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "false",
+        "link_south": "false",
+        "link_west": "false",
+        "up_mask": "0"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_coil_one_side"
+      }
+    },
+    {
+      "when": {
+        "link_north": "false",
+        "link_east": "true",
+        "link_south": "false",
+        "link_west": "false",
+        "up_mask": "0"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_coil_one_side",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "false",
+        "link_west": "false",
+        "up_mask": "0"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_curve_ground"
+      }
+    },
+    {
+      "when": {
+        "link_north": "false",
+        "link_east": "false",
+        "link_south": "true",
+        "link_west": "false",
+        "up_mask": "0"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_coil_one_side",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "false",
+        "link_south": "true",
+        "link_west": "false",
+        "up_mask": "0"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_straight_ground"
+      }
+    },
+    {
+      "when": {
+        "link_north": "false",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "false",
+        "up_mask": "0"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_curve_ground",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "false",
+        "up_mask": "0"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_three_way_ground",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "link_north": "false",
+        "link_east": "false",
+        "link_south": "false",
+        "link_west": "true",
+        "up_mask": "0"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_coil_one_side",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "false",
+        "link_south": "false",
+        "link_west": "true",
+        "up_mask": "0"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_curve_ground",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "link_north": "false",
+        "link_east": "true",
+        "link_south": "false",
+        "link_west": "true",
+        "up_mask": "0"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_straight_ground",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "false",
+        "link_west": "true",
+        "up_mask": "0"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_three_way_ground"
+      }
+    },
+    {
+      "when": {
+        "link_north": "false",
+        "link_east": "false",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "0"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_curve_ground",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "false",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "0"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_three_way_ground",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "link_north": "false",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "0"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_three_way_ground",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "0"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_four_way_ground"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "false",
+        "link_south": "false",
+        "link_west": "false",
+        "up_mask": "1"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_1_up_1"
+      }
+    },
+    {
+      "when": {
+        "link_north": "false",
+        "link_east": "true",
+        "link_south": "false",
+        "link_west": "false",
+        "up_mask": "2"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_2_up_2"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "false",
+        "link_west": "false",
+        "up_mask": "3"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_3_up_3"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "false",
+        "link_west": "false",
+        "up_mask": "2"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_3_up_2"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "false",
+        "link_west": "false",
+        "up_mask": "1"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_3_up_1"
+      }
+    },
+    {
+      "when": {
+        "link_north": "false",
+        "link_east": "false",
+        "link_south": "true",
+        "link_west": "false",
+        "up_mask": "4"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_4_up_4"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "false",
+        "link_south": "true",
+        "link_west": "false",
+        "up_mask": "5"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_5_up_5"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "false",
+        "link_south": "true",
+        "link_west": "false",
+        "up_mask": "4"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_5_up_4"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "false",
+        "link_south": "true",
+        "link_west": "false",
+        "up_mask": "1"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_5_up_1"
+      }
+    },
+    {
+      "when": {
+        "link_north": "false",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "false",
+        "up_mask": "6"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_6_up_6"
+      }
+    },
+    {
+      "when": {
+        "link_north": "false",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "false",
+        "up_mask": "4"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_6_up_4"
+      }
+    },
+    {
+      "when": {
+        "link_north": "false",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "false",
+        "up_mask": "2"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_6_up_2"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "false",
+        "up_mask": "7"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_7_up_7"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "false",
+        "up_mask": "6"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_7_up_6"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "false",
+        "up_mask": "5"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_7_up_5"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "false",
+        "up_mask": "4"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_7_up_4"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "false",
+        "up_mask": "3"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_7_up_3"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "false",
+        "up_mask": "2"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_7_up_2"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "false",
+        "up_mask": "1"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_7_up_1"
+      }
+    },
+    {
+      "when": {
+        "link_north": "false",
+        "link_east": "false",
+        "link_south": "false",
+        "link_west": "true",
+        "up_mask": "8"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_8_up_8"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "false",
+        "link_south": "false",
+        "link_west": "true",
+        "up_mask": "9"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_9_up_9"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "false",
+        "link_south": "false",
+        "link_west": "true",
+        "up_mask": "8"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_9_up_8"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "false",
+        "link_south": "false",
+        "link_west": "true",
+        "up_mask": "1"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_9_up_1"
+      }
+    },
+    {
+      "when": {
+        "link_north": "false",
+        "link_east": "true",
+        "link_south": "false",
+        "link_west": "true",
+        "up_mask": "10"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_10_up_10"
+      }
+    },
+    {
+      "when": {
+        "link_north": "false",
+        "link_east": "true",
+        "link_south": "false",
+        "link_west": "true",
+        "up_mask": "8"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_10_up_8"
+      }
+    },
+    {
+      "when": {
+        "link_north": "false",
+        "link_east": "true",
+        "link_south": "false",
+        "link_west": "true",
+        "up_mask": "2"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_10_up_2"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "false",
+        "link_west": "true",
+        "up_mask": "11"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_11_up_11"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "false",
+        "link_west": "true",
+        "up_mask": "10"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_11_up_10"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "false",
+        "link_west": "true",
+        "up_mask": "9"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_11_up_9"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "false",
+        "link_west": "true",
+        "up_mask": "8"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_11_up_8"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "false",
+        "link_west": "true",
+        "up_mask": "3"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_11_up_3"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "false",
+        "link_west": "true",
+        "up_mask": "2"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_11_up_2"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "false",
+        "link_west": "true",
+        "up_mask": "1"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_11_up_1"
+      }
+    },
+    {
+      "when": {
+        "link_north": "false",
+        "link_east": "false",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "12"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_12_up_12"
+      }
+    },
+    {
+      "when": {
+        "link_north": "false",
+        "link_east": "false",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "8"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_12_up_8"
+      }
+    },
+    {
+      "when": {
+        "link_north": "false",
+        "link_east": "false",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "4"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_12_up_4"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "false",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "13"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_13_up_13"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "false",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "12"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_13_up_12"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "false",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "9"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_13_up_9"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "false",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "8"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_13_up_8"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "false",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "5"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_13_up_5"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "false",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "4"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_13_up_4"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "false",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "1"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_13_up_1"
+      }
+    },
+    {
+      "when": {
+        "link_north": "false",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "14"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_14_up_14"
+      }
+    },
+    {
+      "when": {
+        "link_north": "false",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "12"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_14_up_12"
+      }
+    },
+    {
+      "when": {
+        "link_north": "false",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "10"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_14_up_10"
+      }
+    },
+    {
+      "when": {
+        "link_north": "false",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "8"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_14_up_8"
+      }
+    },
+    {
+      "when": {
+        "link_north": "false",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "6"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_14_up_6"
+      }
+    },
+    {
+      "when": {
+        "link_north": "false",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "4"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_14_up_4"
+      }
+    },
+    {
+      "when": {
+        "link_north": "false",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "2"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_14_up_2"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "15"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_15_up_15"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "14"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_15_up_14"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "13"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_15_up_13"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "12"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_15_up_12"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "11"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_15_up_11"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "10"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_15_up_10"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "9"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_15_up_9"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "8"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_15_up_8"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "7"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_15_up_7"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "6"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_15_up_6"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "5"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_15_up_5"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "4"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_15_up_4"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "3"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_15_up_3"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "2"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_15_up_2"
+      }
+    },
+    {
+      "when": {
+        "link_north": "true",
+        "link_east": "true",
+        "link_south": "true",
+        "link_west": "true",
+        "up_mask": "1"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/copper_wire_node_links_15_up_1"
+      }
+    }
+  ]
+}

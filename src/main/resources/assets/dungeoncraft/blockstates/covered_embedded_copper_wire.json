@@ -1,0 +1,9 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "dungeoncraft:block/covered_embedded_copper_wire"
+      }
+    }
+  ]
+}

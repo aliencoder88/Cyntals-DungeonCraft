@@ -1,0 +1,408 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "half": "lower"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/arched_window_lower_world_cap"
+      }
+    },
+    {
+      "when": {
+        "half": "lower",
+        "facing": "north"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/arched_window_lower_inner_sill_cap_ns"
+      }
+    },
+    {
+      "when": {
+        "half": "lower",
+        "facing": "south"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/arched_window_lower_inner_sill_cap_ns"
+      }
+    },
+    {
+      "when": {
+        "half": "lower",
+        "facing": "east"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/arched_window_lower_inner_sill_cap_ew"
+      }
+    },
+    {
+      "when": {
+        "half": "lower",
+        "facing": "west"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/arched_window_lower_inner_sill_cap_ew"
+      }
+    },
+    {
+      "when": {
+        "half": "upper"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/arched_window_upper_world_cap"
+      }
+    },
+
+    {
+      "when": {
+        "buried": "clear",
+        "facing": "north",
+        "half": "lower"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/arched_window_bottom"
+      }
+    },
+    {
+      "when": {
+        "buried": "clear",
+        "facing": "east",
+        "half": "lower"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/arched_window_bottom",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "buried": "clear",
+        "facing": "south",
+        "half": "lower"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/arched_window_bottom",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "buried": "clear",
+        "facing": "west",
+        "half": "lower"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/arched_window_bottom",
+        "y": 270
+      }
+    },
+
+    {
+      "when": {
+        "buried": "clear",
+        "facing": "north",
+        "half": "upper"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/arched_window_top"
+      }
+    },
+    {
+      "when": {
+        "buried": "clear",
+        "facing": "east",
+        "half": "upper"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/arched_window_top",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "buried": "clear",
+        "facing": "south",
+        "half": "upper"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/arched_window_top",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "buried": "clear",
+        "facing": "west",
+        "half": "upper"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/arched_window_top",
+        "y": 270
+      }
+    },
+
+    {
+      "when": {
+        "buried": "front",
+        "facing": "north",
+        "half": "lower"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/buried_arched_window_bottom_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "buried": "front",
+        "facing": "east",
+        "half": "lower"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/buried_arched_window_bottom_1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "buried": "front",
+        "facing": "south",
+        "half": "lower"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/buried_arched_window_bottom_1"
+      }
+    },
+    {
+      "when": {
+        "buried": "front",
+        "facing": "west",
+        "half": "lower"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/buried_arched_window_bottom_1",
+        "y": 90
+      }
+    },
+
+    {
+      "when": {
+        "buried": "front",
+        "facing": "north",
+        "half": "upper"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/buried_arched_window_top_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "buried": "front",
+        "facing": "east",
+        "half": "upper"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/buried_arched_window_top_1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "buried": "front",
+        "facing": "south",
+        "half": "upper"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/buried_arched_window_top_1"
+      }
+    },
+    {
+      "when": {
+        "buried": "front",
+        "facing": "west",
+        "half": "upper"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/buried_arched_window_top_1",
+        "y": 90
+      }
+    },
+
+    {
+      "when": {
+        "buried": "back",
+        "facing": "north",
+        "half": "lower"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/buried_arched_window_bottom_1"
+      }
+    },
+    {
+      "when": {
+        "buried": "back",
+        "facing": "east",
+        "half": "lower"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/buried_arched_window_bottom_1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "buried": "back",
+        "facing": "south",
+        "half": "lower"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/buried_arched_window_bottom_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "buried": "back",
+        "facing": "west",
+        "half": "lower"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/buried_arched_window_bottom_1",
+        "y": 270
+      }
+    },
+
+    {
+      "when": {
+        "buried": "back",
+        "facing": "north",
+        "half": "upper"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/buried_arched_window_top_1"
+      }
+    },
+    {
+      "when": {
+        "buried": "back",
+        "facing": "east",
+        "half": "upper"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/buried_arched_window_top_1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "buried": "back",
+        "facing": "south",
+        "half": "upper"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/buried_arched_window_top_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "buried": "back",
+        "facing": "west",
+        "half": "upper"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/buried_arched_window_top_1",
+        "y": 270
+      }
+    },
+
+    {
+      "when": {
+        "buried": "both",
+        "facing": "north",
+        "half": "lower"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/buried_arched_window_bottom_2"
+      }
+    },
+    {
+      "when": {
+        "buried": "both",
+        "facing": "east",
+        "half": "lower"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/buried_arched_window_bottom_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "buried": "both",
+        "facing": "south",
+        "half": "lower"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/buried_arched_window_bottom_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "buried": "both",
+        "facing": "west",
+        "half": "lower"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/buried_arched_window_bottom_2",
+        "y": 270
+      }
+    },
+
+    {
+      "when": {
+        "buried": "both",
+        "facing": "north",
+        "half": "upper"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/buried_arched_window_top_2"
+      }
+    },
+    {
+      "when": {
+        "buried": "both",
+        "facing": "east",
+        "half": "upper"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/buried_arched_window_top_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "buried": "both",
+        "facing": "south",
+        "half": "upper"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/buried_arched_window_top_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "buried": "both",
+        "facing": "west",
+        "half": "upper"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/buried_arched_window_top_2",
+        "y": 270
+      }
+    }
+  ]
+}

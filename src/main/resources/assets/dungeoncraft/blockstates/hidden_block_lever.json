@@ -1,0 +1,54 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "render_closed": "true"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/aged_limestone_bricks"
+      }
+    },
+    {
+      "when": {
+        "render_closed": "false",
+        "facing": "north"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/hidden_block_lever_shell_model"
+      }
+    },
+    {
+      "when": {
+        "render_closed": "false",
+        "facing": "east"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/hidden_block_lever_shell_model",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "render_closed": "false",
+        "facing": "south"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/hidden_block_lever_shell_model",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "render_closed": "false",
+        "facing": "west"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/hidden_block_lever_shell_model",
+        "y": 270,
+        "uvlock": true
+      }
+    }
+  ]
+}

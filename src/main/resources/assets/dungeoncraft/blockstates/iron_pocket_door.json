@@ -1,0 +1,1204 @@
+{
+  "variants": {
+    "facing=north,half=lower,open=false,powered=false,slides_left=false,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_closed_left"
+    },
+    "facing=north,half=lower,open=false,powered=true,slides_left=false,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_closed_left"
+    },
+    "facing=north,half=lower,open=false,powered=false,slides_left=false,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_1_left"
+    },
+    "facing=north,half=lower,open=false,powered=true,slides_left=false,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_1_left"
+    },
+    "facing=north,half=lower,open=false,powered=false,slides_left=false,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_2_left"
+    },
+    "facing=north,half=lower,open=false,powered=true,slides_left=false,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_2_left"
+    },
+    "facing=north,half=lower,open=false,powered=false,slides_left=false,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_3_left"
+    },
+    "facing=north,half=lower,open=false,powered=true,slides_left=false,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_3_left"
+    },
+    "facing=north,half=lower,open=false,powered=false,slides_left=false,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_open_left"
+    },
+    "facing=north,half=lower,open=false,powered=true,slides_left=false,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_open_left"
+    },
+    "facing=north,half=lower,open=false,powered=false,slides_left=true,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_closed_right"
+    },
+    "facing=north,half=lower,open=false,powered=true,slides_left=true,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_closed_right"
+    },
+    "facing=north,half=lower,open=false,powered=false,slides_left=true,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_1_right"
+    },
+    "facing=north,half=lower,open=false,powered=true,slides_left=true,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_1_right"
+    },
+    "facing=north,half=lower,open=false,powered=false,slides_left=true,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_2_right"
+    },
+    "facing=north,half=lower,open=false,powered=true,slides_left=true,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_2_right"
+    },
+    "facing=north,half=lower,open=false,powered=false,slides_left=true,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_3_right"
+    },
+    "facing=north,half=lower,open=false,powered=true,slides_left=true,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_3_right"
+    },
+    "facing=north,half=lower,open=false,powered=false,slides_left=true,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_open_right"
+    },
+    "facing=north,half=lower,open=false,powered=true,slides_left=true,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_open_right"
+    },
+    "facing=north,half=upper,open=false,powered=false,slides_left=false,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_closed_left"
+    },
+    "facing=north,half=upper,open=false,powered=true,slides_left=false,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_closed_left"
+    },
+    "facing=north,half=upper,open=false,powered=false,slides_left=false,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_1_left"
+    },
+    "facing=north,half=upper,open=false,powered=true,slides_left=false,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_1_left"
+    },
+    "facing=north,half=upper,open=false,powered=false,slides_left=false,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_2_left"
+    },
+    "facing=north,half=upper,open=false,powered=true,slides_left=false,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_2_left"
+    },
+    "facing=north,half=upper,open=false,powered=false,slides_left=false,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_3_left"
+    },
+    "facing=north,half=upper,open=false,powered=true,slides_left=false,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_3_left"
+    },
+    "facing=north,half=upper,open=false,powered=false,slides_left=false,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_open_left"
+    },
+    "facing=north,half=upper,open=false,powered=true,slides_left=false,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_open_left"
+    },
+    "facing=north,half=upper,open=false,powered=false,slides_left=true,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_closed_right"
+    },
+    "facing=north,half=upper,open=false,powered=true,slides_left=true,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_closed_right"
+    },
+    "facing=north,half=upper,open=false,powered=false,slides_left=true,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_1_right"
+    },
+    "facing=north,half=upper,open=false,powered=true,slides_left=true,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_1_right"
+    },
+    "facing=north,half=upper,open=false,powered=false,slides_left=true,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_2_right"
+    },
+    "facing=north,half=upper,open=false,powered=true,slides_left=true,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_2_right"
+    },
+    "facing=north,half=upper,open=false,powered=false,slides_left=true,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_3_right"
+    },
+    "facing=north,half=upper,open=false,powered=true,slides_left=true,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_3_right"
+    },
+    "facing=north,half=upper,open=false,powered=false,slides_left=true,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_open_right"
+    },
+    "facing=north,half=upper,open=false,powered=true,slides_left=true,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_open_right"
+    },
+    "facing=north,half=lower,open=true,powered=false,slides_left=false,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_closed_left"
+    },
+    "facing=north,half=lower,open=true,powered=true,slides_left=false,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_closed_left"
+    },
+    "facing=north,half=lower,open=true,powered=false,slides_left=false,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_1_left"
+    },
+    "facing=north,half=lower,open=true,powered=true,slides_left=false,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_1_left"
+    },
+    "facing=north,half=lower,open=true,powered=false,slides_left=false,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_2_left"
+    },
+    "facing=north,half=lower,open=true,powered=true,slides_left=false,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_2_left"
+    },
+    "facing=north,half=lower,open=true,powered=false,slides_left=false,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_3_left"
+    },
+    "facing=north,half=lower,open=true,powered=true,slides_left=false,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_3_left"
+    },
+    "facing=north,half=lower,open=true,powered=false,slides_left=false,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_open_left"
+    },
+    "facing=north,half=lower,open=true,powered=true,slides_left=false,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_open_left"
+    },
+    "facing=north,half=lower,open=true,powered=false,slides_left=true,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_closed_right"
+    },
+    "facing=north,half=lower,open=true,powered=true,slides_left=true,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_closed_right"
+    },
+    "facing=north,half=lower,open=true,powered=false,slides_left=true,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_1_right"
+    },
+    "facing=north,half=lower,open=true,powered=true,slides_left=true,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_1_right"
+    },
+    "facing=north,half=lower,open=true,powered=false,slides_left=true,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_2_right"
+    },
+    "facing=north,half=lower,open=true,powered=true,slides_left=true,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_2_right"
+    },
+    "facing=north,half=lower,open=true,powered=false,slides_left=true,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_3_right"
+    },
+    "facing=north,half=lower,open=true,powered=true,slides_left=true,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_3_right"
+    },
+    "facing=north,half=lower,open=true,powered=false,slides_left=true,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_open_right"
+    },
+    "facing=north,half=lower,open=true,powered=true,slides_left=true,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_open_right"
+    },
+    "facing=north,half=upper,open=true,powered=false,slides_left=false,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_closed_left"
+    },
+    "facing=north,half=upper,open=true,powered=true,slides_left=false,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_closed_left"
+    },
+    "facing=north,half=upper,open=true,powered=false,slides_left=false,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_1_left"
+    },
+    "facing=north,half=upper,open=true,powered=true,slides_left=false,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_1_left"
+    },
+    "facing=north,half=upper,open=true,powered=false,slides_left=false,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_2_left"
+    },
+    "facing=north,half=upper,open=true,powered=true,slides_left=false,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_2_left"
+    },
+    "facing=north,half=upper,open=true,powered=false,slides_left=false,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_3_left"
+    },
+    "facing=north,half=upper,open=true,powered=true,slides_left=false,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_3_left"
+    },
+    "facing=north,half=upper,open=true,powered=false,slides_left=false,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_open_left"
+    },
+    "facing=north,half=upper,open=true,powered=true,slides_left=false,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_open_left"
+    },
+    "facing=north,half=upper,open=true,powered=false,slides_left=true,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_closed_right"
+    },
+    "facing=north,half=upper,open=true,powered=true,slides_left=true,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_closed_right"
+    },
+    "facing=north,half=upper,open=true,powered=false,slides_left=true,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_1_right"
+    },
+    "facing=north,half=upper,open=true,powered=true,slides_left=true,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_1_right"
+    },
+    "facing=north,half=upper,open=true,powered=false,slides_left=true,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_2_right"
+    },
+    "facing=north,half=upper,open=true,powered=true,slides_left=true,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_2_right"
+    },
+    "facing=north,half=upper,open=true,powered=false,slides_left=true,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_3_right"
+    },
+    "facing=north,half=upper,open=true,powered=true,slides_left=true,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_3_right"
+    },
+    "facing=north,half=upper,open=true,powered=false,slides_left=true,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_open_right"
+    },
+    "facing=north,half=upper,open=true,powered=true,slides_left=true,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_open_right"
+    },
+    "facing=east,half=lower,open=false,powered=false,slides_left=false,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_closed_left",
+      "y": 90
+    },
+    "facing=east,half=lower,open=false,powered=true,slides_left=false,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_closed_left",
+      "y": 90
+    },
+    "facing=east,half=lower,open=false,powered=false,slides_left=false,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_1_left",
+      "y": 90
+    },
+    "facing=east,half=lower,open=false,powered=true,slides_left=false,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_1_left",
+      "y": 90
+    },
+    "facing=east,half=lower,open=false,powered=false,slides_left=false,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_2_left",
+      "y": 90
+    },
+    "facing=east,half=lower,open=false,powered=true,slides_left=false,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_2_left",
+      "y": 90
+    },
+    "facing=east,half=lower,open=false,powered=false,slides_left=false,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_3_left",
+      "y": 90
+    },
+    "facing=east,half=lower,open=false,powered=true,slides_left=false,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_3_left",
+      "y": 90
+    },
+    "facing=east,half=lower,open=false,powered=false,slides_left=false,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_open_left",
+      "y": 90
+    },
+    "facing=east,half=lower,open=false,powered=true,slides_left=false,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_open_left",
+      "y": 90
+    },
+    "facing=east,half=lower,open=false,powered=false,slides_left=true,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_closed_right",
+      "y": 90
+    },
+    "facing=east,half=lower,open=false,powered=true,slides_left=true,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_closed_right",
+      "y": 90
+    },
+    "facing=east,half=lower,open=false,powered=false,slides_left=true,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_1_right",
+      "y": 90
+    },
+    "facing=east,half=lower,open=false,powered=true,slides_left=true,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_1_right",
+      "y": 90
+    },
+    "facing=east,half=lower,open=false,powered=false,slides_left=true,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_2_right",
+      "y": 90
+    },
+    "facing=east,half=lower,open=false,powered=true,slides_left=true,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_2_right",
+      "y": 90
+    },
+    "facing=east,half=lower,open=false,powered=false,slides_left=true,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_3_right",
+      "y": 90
+    },
+    "facing=east,half=lower,open=false,powered=true,slides_left=true,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_3_right",
+      "y": 90
+    },
+    "facing=east,half=lower,open=false,powered=false,slides_left=true,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_open_right",
+      "y": 90
+    },
+    "facing=east,half=lower,open=false,powered=true,slides_left=true,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_open_right",
+      "y": 90
+    },
+    "facing=east,half=upper,open=false,powered=false,slides_left=false,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_closed_left",
+      "y": 90
+    },
+    "facing=east,half=upper,open=false,powered=true,slides_left=false,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_closed_left",
+      "y": 90
+    },
+    "facing=east,half=upper,open=false,powered=false,slides_left=false,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_1_left",
+      "y": 90
+    },
+    "facing=east,half=upper,open=false,powered=true,slides_left=false,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_1_left",
+      "y": 90
+    },
+    "facing=east,half=upper,open=false,powered=false,slides_left=false,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_2_left",
+      "y": 90
+    },
+    "facing=east,half=upper,open=false,powered=true,slides_left=false,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_2_left",
+      "y": 90
+    },
+    "facing=east,half=upper,open=false,powered=false,slides_left=false,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_3_left",
+      "y": 90
+    },
+    "facing=east,half=upper,open=false,powered=true,slides_left=false,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_3_left",
+      "y": 90
+    },
+    "facing=east,half=upper,open=false,powered=false,slides_left=false,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_open_left",
+      "y": 90
+    },
+    "facing=east,half=upper,open=false,powered=true,slides_left=false,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_open_left",
+      "y": 90
+    },
+    "facing=east,half=upper,open=false,powered=false,slides_left=true,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_closed_right",
+      "y": 90
+    },
+    "facing=east,half=upper,open=false,powered=true,slides_left=true,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_closed_right",
+      "y": 90
+    },
+    "facing=east,half=upper,open=false,powered=false,slides_left=true,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_1_right",
+      "y": 90
+    },
+    "facing=east,half=upper,open=false,powered=true,slides_left=true,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_1_right",
+      "y": 90
+    },
+    "facing=east,half=upper,open=false,powered=false,slides_left=true,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_2_right",
+      "y": 90
+    },
+    "facing=east,half=upper,open=false,powered=true,slides_left=true,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_2_right",
+      "y": 90
+    },
+    "facing=east,half=upper,open=false,powered=false,slides_left=true,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_3_right",
+      "y": 90
+    },
+    "facing=east,half=upper,open=false,powered=true,slides_left=true,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_3_right",
+      "y": 90
+    },
+    "facing=east,half=upper,open=false,powered=false,slides_left=true,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_open_right",
+      "y": 90
+    },
+    "facing=east,half=upper,open=false,powered=true,slides_left=true,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_open_right",
+      "y": 90
+    },
+    "facing=east,half=lower,open=true,powered=false,slides_left=false,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_closed_left",
+      "y": 90
+    },
+    "facing=east,half=lower,open=true,powered=true,slides_left=false,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_closed_left",
+      "y": 90
+    },
+    "facing=east,half=lower,open=true,powered=false,slides_left=false,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_1_left",
+      "y": 90
+    },
+    "facing=east,half=lower,open=true,powered=true,slides_left=false,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_1_left",
+      "y": 90
+    },
+    "facing=east,half=lower,open=true,powered=false,slides_left=false,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_2_left",
+      "y": 90
+    },
+    "facing=east,half=lower,open=true,powered=true,slides_left=false,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_2_left",
+      "y": 90
+    },
+    "facing=east,half=lower,open=true,powered=false,slides_left=false,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_3_left",
+      "y": 90
+    },
+    "facing=east,half=lower,open=true,powered=true,slides_left=false,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_3_left",
+      "y": 90
+    },
+    "facing=east,half=lower,open=true,powered=false,slides_left=false,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_open_left",
+      "y": 90
+    },
+    "facing=east,half=lower,open=true,powered=true,slides_left=false,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_open_left",
+      "y": 90
+    },
+    "facing=east,half=lower,open=true,powered=false,slides_left=true,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_closed_right",
+      "y": 90
+    },
+    "facing=east,half=lower,open=true,powered=true,slides_left=true,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_closed_right",
+      "y": 90
+    },
+    "facing=east,half=lower,open=true,powered=false,slides_left=true,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_1_right",
+      "y": 90
+    },
+    "facing=east,half=lower,open=true,powered=true,slides_left=true,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_1_right",
+      "y": 90
+    },
+    "facing=east,half=lower,open=true,powered=false,slides_left=true,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_2_right",
+      "y": 90
+    },
+    "facing=east,half=lower,open=true,powered=true,slides_left=true,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_2_right",
+      "y": 90
+    },
+    "facing=east,half=lower,open=true,powered=false,slides_left=true,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_3_right",
+      "y": 90
+    },
+    "facing=east,half=lower,open=true,powered=true,slides_left=true,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_3_right",
+      "y": 90
+    },
+    "facing=east,half=lower,open=true,powered=false,slides_left=true,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_open_right",
+      "y": 90
+    },
+    "facing=east,half=lower,open=true,powered=true,slides_left=true,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_open_right",
+      "y": 90
+    },
+    "facing=east,half=upper,open=true,powered=false,slides_left=false,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_closed_left",
+      "y": 90
+    },
+    "facing=east,half=upper,open=true,powered=true,slides_left=false,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_closed_left",
+      "y": 90
+    },
+    "facing=east,half=upper,open=true,powered=false,slides_left=false,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_1_left",
+      "y": 90
+    },
+    "facing=east,half=upper,open=true,powered=true,slides_left=false,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_1_left",
+      "y": 90
+    },
+    "facing=east,half=upper,open=true,powered=false,slides_left=false,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_2_left",
+      "y": 90
+    },
+    "facing=east,half=upper,open=true,powered=true,slides_left=false,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_2_left",
+      "y": 90
+    },
+    "facing=east,half=upper,open=true,powered=false,slides_left=false,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_3_left",
+      "y": 90
+    },
+    "facing=east,half=upper,open=true,powered=true,slides_left=false,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_3_left",
+      "y": 90
+    },
+    "facing=east,half=upper,open=true,powered=false,slides_left=false,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_open_left",
+      "y": 90
+    },
+    "facing=east,half=upper,open=true,powered=true,slides_left=false,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_open_left",
+      "y": 90
+    },
+    "facing=east,half=upper,open=true,powered=false,slides_left=true,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_closed_right",
+      "y": 90
+    },
+    "facing=east,half=upper,open=true,powered=true,slides_left=true,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_closed_right",
+      "y": 90
+    },
+    "facing=east,half=upper,open=true,powered=false,slides_left=true,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_1_right",
+      "y": 90
+    },
+    "facing=east,half=upper,open=true,powered=true,slides_left=true,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_1_right",
+      "y": 90
+    },
+    "facing=east,half=upper,open=true,powered=false,slides_left=true,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_2_right",
+      "y": 90
+    },
+    "facing=east,half=upper,open=true,powered=true,slides_left=true,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_2_right",
+      "y": 90
+    },
+    "facing=east,half=upper,open=true,powered=false,slides_left=true,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_3_right",
+      "y": 90
+    },
+    "facing=east,half=upper,open=true,powered=true,slides_left=true,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_3_right",
+      "y": 90
+    },
+    "facing=east,half=upper,open=true,powered=false,slides_left=true,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_open_right",
+      "y": 90
+    },
+    "facing=east,half=upper,open=true,powered=true,slides_left=true,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_open_right",
+      "y": 90
+    },
+    "facing=south,half=lower,open=false,powered=false,slides_left=false,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_closed_left",
+      "y": 180
+    },
+    "facing=south,half=lower,open=false,powered=true,slides_left=false,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_closed_left",
+      "y": 180
+    },
+    "facing=south,half=lower,open=false,powered=false,slides_left=false,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_1_left",
+      "y": 180
+    },
+    "facing=south,half=lower,open=false,powered=true,slides_left=false,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_1_left",
+      "y": 180
+    },
+    "facing=south,half=lower,open=false,powered=false,slides_left=false,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_2_left",
+      "y": 180
+    },
+    "facing=south,half=lower,open=false,powered=true,slides_left=false,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_2_left",
+      "y": 180
+    },
+    "facing=south,half=lower,open=false,powered=false,slides_left=false,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_3_left",
+      "y": 180
+    },
+    "facing=south,half=lower,open=false,powered=true,slides_left=false,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_3_left",
+      "y": 180
+    },
+    "facing=south,half=lower,open=false,powered=false,slides_left=false,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_open_left",
+      "y": 180
+    },
+    "facing=south,half=lower,open=false,powered=true,slides_left=false,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_open_left",
+      "y": 180
+    },
+    "facing=south,half=lower,open=false,powered=false,slides_left=true,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_closed_right",
+      "y": 180
+    },
+    "facing=south,half=lower,open=false,powered=true,slides_left=true,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_closed_right",
+      "y": 180
+    },
+    "facing=south,half=lower,open=false,powered=false,slides_left=true,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_1_right",
+      "y": 180
+    },
+    "facing=south,half=lower,open=false,powered=true,slides_left=true,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_1_right",
+      "y": 180
+    },
+    "facing=south,half=lower,open=false,powered=false,slides_left=true,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_2_right",
+      "y": 180
+    },
+    "facing=south,half=lower,open=false,powered=true,slides_left=true,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_2_right",
+      "y": 180
+    },
+    "facing=south,half=lower,open=false,powered=false,slides_left=true,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_3_right",
+      "y": 180
+    },
+    "facing=south,half=lower,open=false,powered=true,slides_left=true,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_3_right",
+      "y": 180
+    },
+    "facing=south,half=lower,open=false,powered=false,slides_left=true,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_open_right",
+      "y": 180
+    },
+    "facing=south,half=lower,open=false,powered=true,slides_left=true,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_open_right",
+      "y": 180
+    },
+    "facing=south,half=upper,open=false,powered=false,slides_left=false,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_closed_left",
+      "y": 180
+    },
+    "facing=south,half=upper,open=false,powered=true,slides_left=false,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_closed_left",
+      "y": 180
+    },
+    "facing=south,half=upper,open=false,powered=false,slides_left=false,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_1_left",
+      "y": 180
+    },
+    "facing=south,half=upper,open=false,powered=true,slides_left=false,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_1_left",
+      "y": 180
+    },
+    "facing=south,half=upper,open=false,powered=false,slides_left=false,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_2_left",
+      "y": 180
+    },
+    "facing=south,half=upper,open=false,powered=true,slides_left=false,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_2_left",
+      "y": 180
+    },
+    "facing=south,half=upper,open=false,powered=false,slides_left=false,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_3_left",
+      "y": 180
+    },
+    "facing=south,half=upper,open=false,powered=true,slides_left=false,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_3_left",
+      "y": 180
+    },
+    "facing=south,half=upper,open=false,powered=false,slides_left=false,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_open_left",
+      "y": 180
+    },
+    "facing=south,half=upper,open=false,powered=true,slides_left=false,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_open_left",
+      "y": 180
+    },
+    "facing=south,half=upper,open=false,powered=false,slides_left=true,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_closed_right",
+      "y": 180
+    },
+    "facing=south,half=upper,open=false,powered=true,slides_left=true,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_closed_right",
+      "y": 180
+    },
+    "facing=south,half=upper,open=false,powered=false,slides_left=true,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_1_right",
+      "y": 180
+    },
+    "facing=south,half=upper,open=false,powered=true,slides_left=true,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_1_right",
+      "y": 180
+    },
+    "facing=south,half=upper,open=false,powered=false,slides_left=true,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_2_right",
+      "y": 180
+    },
+    "facing=south,half=upper,open=false,powered=true,slides_left=true,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_2_right",
+      "y": 180
+    },
+    "facing=south,half=upper,open=false,powered=false,slides_left=true,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_3_right",
+      "y": 180
+    },
+    "facing=south,half=upper,open=false,powered=true,slides_left=true,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_3_right",
+      "y": 180
+    },
+    "facing=south,half=upper,open=false,powered=false,slides_left=true,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_open_right",
+      "y": 180
+    },
+    "facing=south,half=upper,open=false,powered=true,slides_left=true,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_open_right",
+      "y": 180
+    },
+    "facing=south,half=lower,open=true,powered=false,slides_left=false,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_closed_left",
+      "y": 180
+    },
+    "facing=south,half=lower,open=true,powered=true,slides_left=false,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_closed_left",
+      "y": 180
+    },
+    "facing=south,half=lower,open=true,powered=false,slides_left=false,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_1_left",
+      "y": 180
+    },
+    "facing=south,half=lower,open=true,powered=true,slides_left=false,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_1_left",
+      "y": 180
+    },
+    "facing=south,half=lower,open=true,powered=false,slides_left=false,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_2_left",
+      "y": 180
+    },
+    "facing=south,half=lower,open=true,powered=true,slides_left=false,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_2_left",
+      "y": 180
+    },
+    "facing=south,half=lower,open=true,powered=false,slides_left=false,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_3_left",
+      "y": 180
+    },
+    "facing=south,half=lower,open=true,powered=true,slides_left=false,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_3_left",
+      "y": 180
+    },
+    "facing=south,half=lower,open=true,powered=false,slides_left=false,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_open_left",
+      "y": 180
+    },
+    "facing=south,half=lower,open=true,powered=true,slides_left=false,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_open_left",
+      "y": 180
+    },
+    "facing=south,half=lower,open=true,powered=false,slides_left=true,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_closed_right",
+      "y": 180
+    },
+    "facing=south,half=lower,open=true,powered=true,slides_left=true,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_closed_right",
+      "y": 180
+    },
+    "facing=south,half=lower,open=true,powered=false,slides_left=true,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_1_right",
+      "y": 180
+    },
+    "facing=south,half=lower,open=true,powered=true,slides_left=true,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_1_right",
+      "y": 180
+    },
+    "facing=south,half=lower,open=true,powered=false,slides_left=true,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_2_right",
+      "y": 180
+    },
+    "facing=south,half=lower,open=true,powered=true,slides_left=true,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_2_right",
+      "y": 180
+    },
+    "facing=south,half=lower,open=true,powered=false,slides_left=true,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_3_right",
+      "y": 180
+    },
+    "facing=south,half=lower,open=true,powered=true,slides_left=true,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_3_right",
+      "y": 180
+    },
+    "facing=south,half=lower,open=true,powered=false,slides_left=true,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_open_right",
+      "y": 180
+    },
+    "facing=south,half=lower,open=true,powered=true,slides_left=true,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_open_right",
+      "y": 180
+    },
+    "facing=south,half=upper,open=true,powered=false,slides_left=false,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_closed_left",
+      "y": 180
+    },
+    "facing=south,half=upper,open=true,powered=true,slides_left=false,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_closed_left",
+      "y": 180
+    },
+    "facing=south,half=upper,open=true,powered=false,slides_left=false,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_1_left",
+      "y": 180
+    },
+    "facing=south,half=upper,open=true,powered=true,slides_left=false,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_1_left",
+      "y": 180
+    },
+    "facing=south,half=upper,open=true,powered=false,slides_left=false,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_2_left",
+      "y": 180
+    },
+    "facing=south,half=upper,open=true,powered=true,slides_left=false,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_2_left",
+      "y": 180
+    },
+    "facing=south,half=upper,open=true,powered=false,slides_left=false,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_3_left",
+      "y": 180
+    },
+    "facing=south,half=upper,open=true,powered=true,slides_left=false,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_3_left",
+      "y": 180
+    },
+    "facing=south,half=upper,open=true,powered=false,slides_left=false,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_open_left",
+      "y": 180
+    },
+    "facing=south,half=upper,open=true,powered=true,slides_left=false,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_open_left",
+      "y": 180
+    },
+    "facing=south,half=upper,open=true,powered=false,slides_left=true,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_closed_right",
+      "y": 180
+    },
+    "facing=south,half=upper,open=true,powered=true,slides_left=true,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_closed_right",
+      "y": 180
+    },
+    "facing=south,half=upper,open=true,powered=false,slides_left=true,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_1_right",
+      "y": 180
+    },
+    "facing=south,half=upper,open=true,powered=true,slides_left=true,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_1_right",
+      "y": 180
+    },
+    "facing=south,half=upper,open=true,powered=false,slides_left=true,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_2_right",
+      "y": 180
+    },
+    "facing=south,half=upper,open=true,powered=true,slides_left=true,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_2_right",
+      "y": 180
+    },
+    "facing=south,half=upper,open=true,powered=false,slides_left=true,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_3_right",
+      "y": 180
+    },
+    "facing=south,half=upper,open=true,powered=true,slides_left=true,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_3_right",
+      "y": 180
+    },
+    "facing=south,half=upper,open=true,powered=false,slides_left=true,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_open_right",
+      "y": 180
+    },
+    "facing=south,half=upper,open=true,powered=true,slides_left=true,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_open_right",
+      "y": 180
+    },
+    "facing=west,half=lower,open=false,powered=false,slides_left=false,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_closed_left",
+      "y": 270
+    },
+    "facing=west,half=lower,open=false,powered=true,slides_left=false,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_closed_left",
+      "y": 270
+    },
+    "facing=west,half=lower,open=false,powered=false,slides_left=false,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_1_left",
+      "y": 270
+    },
+    "facing=west,half=lower,open=false,powered=true,slides_left=false,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_1_left",
+      "y": 270
+    },
+    "facing=west,half=lower,open=false,powered=false,slides_left=false,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_2_left",
+      "y": 270
+    },
+    "facing=west,half=lower,open=false,powered=true,slides_left=false,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_2_left",
+      "y": 270
+    },
+    "facing=west,half=lower,open=false,powered=false,slides_left=false,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_3_left",
+      "y": 270
+    },
+    "facing=west,half=lower,open=false,powered=true,slides_left=false,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_3_left",
+      "y": 270
+    },
+    "facing=west,half=lower,open=false,powered=false,slides_left=false,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_open_left",
+      "y": 270
+    },
+    "facing=west,half=lower,open=false,powered=true,slides_left=false,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_open_left",
+      "y": 270
+    },
+    "facing=west,half=lower,open=false,powered=false,slides_left=true,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_closed_right",
+      "y": 270
+    },
+    "facing=west,half=lower,open=false,powered=true,slides_left=true,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_closed_right",
+      "y": 270
+    },
+    "facing=west,half=lower,open=false,powered=false,slides_left=true,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_1_right",
+      "y": 270
+    },
+    "facing=west,half=lower,open=false,powered=true,slides_left=true,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_1_right",
+      "y": 270
+    },
+    "facing=west,half=lower,open=false,powered=false,slides_left=true,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_2_right",
+      "y": 270
+    },
+    "facing=west,half=lower,open=false,powered=true,slides_left=true,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_2_right",
+      "y": 270
+    },
+    "facing=west,half=lower,open=false,powered=false,slides_left=true,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_3_right",
+      "y": 270
+    },
+    "facing=west,half=lower,open=false,powered=true,slides_left=true,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_3_right",
+      "y": 270
+    },
+    "facing=west,half=lower,open=false,powered=false,slides_left=true,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_open_right",
+      "y": 270
+    },
+    "facing=west,half=lower,open=false,powered=true,slides_left=true,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_open_right",
+      "y": 270
+    },
+    "facing=west,half=upper,open=false,powered=false,slides_left=false,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_closed_left",
+      "y": 270
+    },
+    "facing=west,half=upper,open=false,powered=true,slides_left=false,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_closed_left",
+      "y": 270
+    },
+    "facing=west,half=upper,open=false,powered=false,slides_left=false,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_1_left",
+      "y": 270
+    },
+    "facing=west,half=upper,open=false,powered=true,slides_left=false,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_1_left",
+      "y": 270
+    },
+    "facing=west,half=upper,open=false,powered=false,slides_left=false,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_2_left",
+      "y": 270
+    },
+    "facing=west,half=upper,open=false,powered=true,slides_left=false,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_2_left",
+      "y": 270
+    },
+    "facing=west,half=upper,open=false,powered=false,slides_left=false,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_3_left",
+      "y": 270
+    },
+    "facing=west,half=upper,open=false,powered=true,slides_left=false,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_3_left",
+      "y": 270
+    },
+    "facing=west,half=upper,open=false,powered=false,slides_left=false,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_open_left",
+      "y": 270
+    },
+    "facing=west,half=upper,open=false,powered=true,slides_left=false,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_open_left",
+      "y": 270
+    },
+    "facing=west,half=upper,open=false,powered=false,slides_left=true,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_closed_right",
+      "y": 270
+    },
+    "facing=west,half=upper,open=false,powered=true,slides_left=true,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_closed_right",
+      "y": 270
+    },
+    "facing=west,half=upper,open=false,powered=false,slides_left=true,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_1_right",
+      "y": 270
+    },
+    "facing=west,half=upper,open=false,powered=true,slides_left=true,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_1_right",
+      "y": 270
+    },
+    "facing=west,half=upper,open=false,powered=false,slides_left=true,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_2_right",
+      "y": 270
+    },
+    "facing=west,half=upper,open=false,powered=true,slides_left=true,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_2_right",
+      "y": 270
+    },
+    "facing=west,half=upper,open=false,powered=false,slides_left=true,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_3_right",
+      "y": 270
+    },
+    "facing=west,half=upper,open=false,powered=true,slides_left=true,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_3_right",
+      "y": 270
+    },
+    "facing=west,half=upper,open=false,powered=false,slides_left=true,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_open_right",
+      "y": 270
+    },
+    "facing=west,half=upper,open=false,powered=true,slides_left=true,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_open_right",
+      "y": 270
+    },
+    "facing=west,half=lower,open=true,powered=false,slides_left=false,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_closed_left",
+      "y": 270
+    },
+    "facing=west,half=lower,open=true,powered=true,slides_left=false,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_closed_left",
+      "y": 270
+    },
+    "facing=west,half=lower,open=true,powered=false,slides_left=false,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_1_left",
+      "y": 270
+    },
+    "facing=west,half=lower,open=true,powered=true,slides_left=false,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_1_left",
+      "y": 270
+    },
+    "facing=west,half=lower,open=true,powered=false,slides_left=false,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_2_left",
+      "y": 270
+    },
+    "facing=west,half=lower,open=true,powered=true,slides_left=false,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_2_left",
+      "y": 270
+    },
+    "facing=west,half=lower,open=true,powered=false,slides_left=false,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_3_left",
+      "y": 270
+    },
+    "facing=west,half=lower,open=true,powered=true,slides_left=false,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_3_left",
+      "y": 270
+    },
+    "facing=west,half=lower,open=true,powered=false,slides_left=false,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_open_left",
+      "y": 270
+    },
+    "facing=west,half=lower,open=true,powered=true,slides_left=false,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_open_left",
+      "y": 270
+    },
+    "facing=west,half=lower,open=true,powered=false,slides_left=true,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_closed_right",
+      "y": 270
+    },
+    "facing=west,half=lower,open=true,powered=true,slides_left=true,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_closed_right",
+      "y": 270
+    },
+    "facing=west,half=lower,open=true,powered=false,slides_left=true,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_1_right",
+      "y": 270
+    },
+    "facing=west,half=lower,open=true,powered=true,slides_left=true,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_1_right",
+      "y": 270
+    },
+    "facing=west,half=lower,open=true,powered=false,slides_left=true,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_2_right",
+      "y": 270
+    },
+    "facing=west,half=lower,open=true,powered=true,slides_left=true,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_2_right",
+      "y": 270
+    },
+    "facing=west,half=lower,open=true,powered=false,slides_left=true,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_3_right",
+      "y": 270
+    },
+    "facing=west,half=lower,open=true,powered=true,slides_left=true,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_step_3_right",
+      "y": 270
+    },
+    "facing=west,half=lower,open=true,powered=false,slides_left=true,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_open_right",
+      "y": 270
+    },
+    "facing=west,half=lower,open=true,powered=true,slides_left=true,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_bottom_open_right",
+      "y": 270
+    },
+    "facing=west,half=upper,open=true,powered=false,slides_left=false,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_closed_left",
+      "y": 270
+    },
+    "facing=west,half=upper,open=true,powered=true,slides_left=false,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_closed_left",
+      "y": 270
+    },
+    "facing=west,half=upper,open=true,powered=false,slides_left=false,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_1_left",
+      "y": 270
+    },
+    "facing=west,half=upper,open=true,powered=true,slides_left=false,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_1_left",
+      "y": 270
+    },
+    "facing=west,half=upper,open=true,powered=false,slides_left=false,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_2_left",
+      "y": 270
+    },
+    "facing=west,half=upper,open=true,powered=true,slides_left=false,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_2_left",
+      "y": 270
+    },
+    "facing=west,half=upper,open=true,powered=false,slides_left=false,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_3_left",
+      "y": 270
+    },
+    "facing=west,half=upper,open=true,powered=true,slides_left=false,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_3_left",
+      "y": 270
+    },
+    "facing=west,half=upper,open=true,powered=false,slides_left=false,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_open_left",
+      "y": 270
+    },
+    "facing=west,half=upper,open=true,powered=true,slides_left=false,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_open_left",
+      "y": 270
+    },
+    "facing=west,half=upper,open=true,powered=false,slides_left=true,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_closed_right",
+      "y": 270
+    },
+    "facing=west,half=upper,open=true,powered=true,slides_left=true,slide_step=0": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_closed_right",
+      "y": 270
+    },
+    "facing=west,half=upper,open=true,powered=false,slides_left=true,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_1_right",
+      "y": 270
+    },
+    "facing=west,half=upper,open=true,powered=true,slides_left=true,slide_step=1": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_1_right",
+      "y": 270
+    },
+    "facing=west,half=upper,open=true,powered=false,slides_left=true,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_2_right",
+      "y": 270
+    },
+    "facing=west,half=upper,open=true,powered=true,slides_left=true,slide_step=2": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_2_right",
+      "y": 270
+    },
+    "facing=west,half=upper,open=true,powered=false,slides_left=true,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_3_right",
+      "y": 270
+    },
+    "facing=west,half=upper,open=true,powered=true,slides_left=true,slide_step=3": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_step_3_right",
+      "y": 270
+    },
+    "facing=west,half=upper,open=true,powered=false,slides_left=true,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_open_right",
+      "y": 270
+    },
+    "facing=west,half=upper,open=true,powered=true,slides_left=true,slide_step=4": {
+      "model": "dungeoncraft:block/iron_pocket_door_top_open_right",
+      "y": 270
+    }
+  }
+}

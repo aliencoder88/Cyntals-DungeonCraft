@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "dungeoncraft:block/stonekeep_low_dungeon_chest_body_model"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "dungeoncraft:block/hidden_block_lever_bar_model"
+    }
+  }
+}

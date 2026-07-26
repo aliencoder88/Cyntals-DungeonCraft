@@ -1,0 +1,88 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "part": "shaft"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/column"
+      }
+    },
+    {
+      "when": {
+        "part": "base"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/column_base"
+      }
+    },
+    {
+      "when": {
+        "part": "top"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/column_top"
+      }
+    },
+
+    {
+      "when": {
+        "part": "shaft",
+        "flank_axis": "x"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/flanked_column_inward_fill"
+      }
+    },
+    {
+      "when": {
+        "part": "shaft",
+        "flank_axis": "z"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/flanked_column_inward_fill",
+        "y": 90
+      }
+    },
+
+    {
+      "when": {
+        "part": "base",
+        "flank_axis": "x"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/flanked_column_inward_fill"
+      }
+    },
+    {
+      "when": {
+        "part": "base",
+        "flank_axis": "z"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/flanked_column_inward_fill",
+        "y": 90
+      }
+    },
+
+    {
+      "when": {
+        "part": "top",
+        "flank_axis": "x"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/flanked_column_inward_fill"
+      }
+    },
+    {
+      "when": {
+        "part": "top",
+        "flank_axis": "z"
+      },
+      "apply": {
+        "model": "dungeoncraft:block/flanked_column_inward_fill",
+        "y": 90
+      }
+    }
+  ]
+}

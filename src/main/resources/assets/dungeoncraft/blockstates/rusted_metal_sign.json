@@ -1,0 +1,83 @@
+{
+  "variants": {
+    "facing=north,surface=0": {
+      "model": "dungeoncraft:block/rusted_metal_sign"
+    },
+    "facing=east,surface=0": {
+      "model": "dungeoncraft:block/rusted_metal_sign",
+      "y": 90
+    },
+    "facing=south,surface=0": {
+      "model": "dungeoncraft:block/rusted_metal_sign",
+      "y": 180
+    },
+    "facing=west,surface=0": {
+      "model": "dungeoncraft:block/rusted_metal_sign",
+      "y": 270
+    },
+
+    "facing=north,surface=1": {
+      "model": "dungeoncraft:block/rusted_metal_sign_surface_1"
+    },
+    "facing=east,surface=1": {
+      "model": "dungeoncraft:block/rusted_metal_sign_surface_1",
+      "y": 90
+    },
+    "facing=south,surface=1": {
+      "model": "dungeoncraft:block/rusted_metal_sign_surface_1",
+      "y": 180
+    },
+    "facing=west,surface=1": {
+      "model": "dungeoncraft:block/rusted_metal_sign_surface_1",
+      "y": 270
+    },
+
+    "facing=north,surface=2": {
+      "model": "dungeoncraft:block/rusted_metal_sign_surface_2"
+    },
+    "facing=east,surface=2": {
+      "model": "dungeoncraft:block/rusted_metal_sign_surface_2",
+      "y": 90
+    },
+    "facing=south,surface=2": {
+      "model": "dungeoncraft:block/rusted_metal_sign_surface_2",
+      "y": 180
+    },
+    "facing=west,surface=2": {
+      "model": "dungeoncraft:block/rusted_metal_sign_surface_2",
+      "y": 270
+    },
+
+    "facing=north,surface=3": {
+      "model": "dungeoncraft:block/rusted_metal_sign_surface_3"
+    },
+    "facing=east,surface=3": {
+      "model": "dungeoncraft:block/rusted_metal_sign_surface_3",
+      "y": 90
+    },
+    "facing=south,surface=3": {
+      "model": "dungeoncraft:block/rusted_metal_sign_surface_3",
+      "y": 180
+    },
+    "facing=west,surface=3": {
+      "model": "dungeoncraft:block/rusted_metal_sign_surface_3",
+      "y": 270
+    },
+
+    "facing=north,surface=4": {
+      "model": "dungeoncraft:block/rusted_metal_sign_surface_4"
+    },
+    "facing=east,surface=4": {
+      "model": "dungeoncraft:block/rusted_metal_sign_surface_4",
+      "y": 90
+    },
+    "facing=south,surface=4": {
+      "model": "dungeoncraft:block/rusted_metal_sign_surface_4",
+      "y": 180
+    },
+    "facing=west,surface=4": {
+      "model": "dungeoncraft:block/rusted_metal_sign_surface_4",
+      "y": 270
+    }
+  }
+}
