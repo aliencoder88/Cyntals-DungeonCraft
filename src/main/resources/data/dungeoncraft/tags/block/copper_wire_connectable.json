@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:redstone_wire",
+    "minecraft:redstone_block",
+    "minecraft:redstone_torch",
+    "minecraft:redstone_wall_torch",
+    "minecraft:lever",
+    "minecraft:repeater",
+    "minecraft:comparator",
+    "minecraft:observer",
+    "minecraft:target",
+    "minecraft:piston",
+    "minecraft:sticky_piston",
+    "minecraft:dispenser",
+    "minecraft:dropper",
+    "minecraft:redstone_lamp",
+    "minecraft:note_block",
+    "minecraft:tnt",
+    "minecraft:hopper",
+    "minecraft:crafter",
+    "#minecraft:buttons",
+    "#minecraft:pressure_plates",
+    "dungeoncraft:iron_lever",
+    "dungeoncraft:iron_pocket_door",
+    "dungeoncraft:hidden_block_lever"
+  ]
+}

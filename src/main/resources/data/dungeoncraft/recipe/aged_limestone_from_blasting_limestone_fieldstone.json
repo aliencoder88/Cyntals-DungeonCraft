@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "dungeoncraft:limestone_fieldstone",
+  "result": {
+    "id": "dungeoncraft:aged_limestone"
+  },
+  "experience": 0.1,
+  "cookingtime": 100
+}

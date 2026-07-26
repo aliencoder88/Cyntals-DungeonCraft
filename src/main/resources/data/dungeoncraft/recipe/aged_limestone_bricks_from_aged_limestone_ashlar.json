@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": "dungeoncraft:aged_limestone_ashlar"
+  },
+  "result": {
+    "id": "dungeoncraft:aged_limestone_bricks",
+    "count": 1
+  }
+}

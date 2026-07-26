@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:stone",
+    "minecraft:coarse_dirt",
+    "minecraft:yellow_dye"
+],
+  "result": {
+    "id": "dungeoncraft:aged_limestone",
+    "count": 2
+  }
+}

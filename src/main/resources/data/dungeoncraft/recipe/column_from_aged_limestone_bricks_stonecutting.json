@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "dungeoncraft:aged_limestone_bricks",
+  "result": {
+    "id": "dungeoncraft:column",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "dungeoncraft:aged_limestone",
+  "result": {
+    "id": "dungeoncraft:aged_limestone_ashlar",
+    "count": 9
+  }
+}
