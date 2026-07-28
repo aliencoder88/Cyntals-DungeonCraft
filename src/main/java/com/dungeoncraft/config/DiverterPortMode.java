@@ -1,7 +1,7 @@
 package com.dungeoncraft.config;
 
 /**
- * Per-port direction permissions for the Power Diverter.
+ * Per-port direction permissions for the Power Router.
  */
 public enum DiverterPortMode {
     DISABLED("disabled", "Disabled", false, false),

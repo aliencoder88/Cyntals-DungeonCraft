@@ -26,18 +26,23 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.redstone.Orientation;
 import net.minecraft.world.phys.BlockHitResult;
+import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * Four-port redstone router configured with the Coding Tool.
+ * Four-port Power Router configured with the Coding Tool.
  *
- * The horizontal North, East, South, and West faces are equal ports. Up and
- * down are structural faces and never transmit or receive routed power.
+ * Ports 1 through 4 are fixed to North, East, South, and West. Up and down are
+ * structural faces and never transmit or receive routed power. The registered
+ * block ID remains power_diverter so existing worlds keep their placed blocks.
  */
 public class PowerDiverterBlock extends BaseEntityBlock {
     public static final MapCodec<PowerDiverterBlock> CODEC =
             simpleCodec(PowerDiverterBlock::new);
     private static final int RECALCULATION_DELAY = 1;
+    private static final VoxelShape SHAPE =
+            Block.box(0, 0, 0, 16, 8, 16);
 
     public PowerDiverterBlock(Properties properties) {
         super(properties);
@@ -46,6 +51,26 @@ public class PowerDiverterBlock extends BaseEntityBlock {
     @Override
     protected RenderShape getRenderShape(BlockState state) {
         return RenderShape.MODEL;
+    }
+
+    @Override
+    protected VoxelShape getShape(
+            BlockState state,
+            BlockGetter level,
+            BlockPos pos,
+            CollisionContext context
+    ) {
+        return SHAPE;
+    }
+
+    @Override
+    protected VoxelShape getCollisionShape(
+            BlockState state,
+            BlockGetter level,
+            BlockPos pos,
+            CollisionContext context
+    ) {
+        return SHAPE;
     }
 
     @Override

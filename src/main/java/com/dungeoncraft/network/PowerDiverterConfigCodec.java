@@ -6,7 +6,7 @@ import net.minecraft.network.RegistryFriendlyByteBuf;
 import net.minecraft.network.codec.ByteBufCodecs;
 import net.minecraft.network.codec.StreamCodec;
 
-/** Packet codec for the compact Power Diverter port and route settings. */
+/** Packet codec for the compact Power Router port and route settings. */
 public final class PowerDiverterConfigCodec {
     public static final StreamCodec<RegistryFriendlyByteBuf, PowerDiverterConfig> CODEC =
             StreamCodec.composite(
@@ -14,6 +14,8 @@ public final class PowerDiverterConfigCodec {
                     PowerDiverterConfig::portModeBits,
                     ByteBufCodecs.VAR_INT,
                     PowerDiverterConfig::routeBits,
+                    ByteBufCodecs.VAR_INT,
+                    PowerDiverterConfig::feedbackBlockedRouteBits,
                     PowerDiverterConfig::new
             );
 

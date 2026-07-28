@@ -29,10 +29,10 @@ import java.util.Set;
 
 /**
  * Stores four equal port modes, source-to-destination routes, and the current
- * routed redstone strengths for the Power Diverter.
+ * routed redstone strengths for the Power Router.
  *
  * Regular redstone is active in this checkpoint. A lightweight route trace is
- * also carried across directly connected Power Diverters so a signal cannot
+ * also carried across directly connected Power Routers so a signal cannot
  * circulate forever through a closed diverter-only loop. The future verified
  * network will carry the full key/provenance data through wire and devices.
  */
@@ -41,6 +41,11 @@ public class PowerDiverterBlockEntity
         implements CodingToolConfigurable {
     private static final String PORT_MODE_BITS_KEY = "port_mode_bits";
     private static final String ROUTE_BITS_KEY = "route_bits";
+    private static final String FEEDBACK_BLOCKED_ROUTE_BITS_KEY =
+            "feedback_blocked_route_bits";
+    private static final String ROUTING_DATA_VERSION_KEY =
+            "routing_data_version";
+    private static final int CURRENT_ROUTING_DATA_VERSION = 2;
     private static final int MAX_DIVERTER_HOPS = 32;
 
     private PowerDiverterConfig config = PowerDiverterConfig.defaults();
@@ -86,7 +91,7 @@ public class PowerDiverterBlockEntity
     }
 
     /**
-     * Used only by an adjacent Power Diverter. Vanilla redstone consumers still
+     * Used only by an adjacent Power Router. Vanilla redstone consumers still
      * receive the ordinary strength through PowerDiverterBlock#getSignal.
      */
     public RoutedSignal getRoutedOutput(PowerDiverterPort port) {
@@ -134,7 +139,10 @@ public class PowerDiverterBlockEntity
                 for (PowerDiverterPort source
                         : PowerDiverterPort.values()) {
                     if (source == destination
-                            || !this.config.routesTo(source, destination)) {
+                            || !this.config.isRouteEffective(
+                                    source,
+                                    destination
+                            )) {
                         continue;
                     }
 
@@ -329,7 +337,7 @@ public class PowerDiverterBlockEntity
                         CodingToolDeviceType.POWER_DIVERTER
                 );
         PowerDiverterConfig updatedConfig =
-                sanitized.powerDiverterConfig();
+                sanitized.powerDiverterConfig().normalizedForSave();
 
         if (this.config.equals(updatedConfig)) {
             return;
@@ -356,20 +364,45 @@ public class PowerDiverterBlockEntity
     protected void saveAdditional(ValueOutput output) {
         output.putInt(PORT_MODE_BITS_KEY, this.config.portModeBits());
         output.putInt(ROUTE_BITS_KEY, this.config.routeBits());
+        output.putInt(
+                FEEDBACK_BLOCKED_ROUTE_BITS_KEY,
+                this.config.feedbackBlockedRouteBits()
+        );
+        output.putInt(
+                ROUTING_DATA_VERSION_KEY,
+                CURRENT_ROUTING_DATA_VERSION
+        );
         super.saveAdditional(output);
     }
 
     @Override
     protected void loadAdditional(ValueInput input) {
         super.loadAdditional(input);
+        int storedRouteBits = input.getIntOr(
+                ROUTE_BITS_KEY,
+                PowerDiverterConfig.defaults().routeBits()
+        );
+        int routingDataVersion = input.getIntOr(
+                ROUTING_DATA_VERSION_KEY,
+                0
+        );
+        int loadedRouteBits = routingDataVersion
+                < CURRENT_ROUTING_DATA_VERSION
+                ? PowerDiverterConfig.migrateLegacyDefaultRoutes(
+                        storedRouteBits
+                )
+                : storedRouteBits;
+
         this.config = new PowerDiverterConfig(
                 input.getIntOr(
                         PORT_MODE_BITS_KEY,
                         PowerDiverterConfig.defaults().portModeBits()
                 ),
+                loadedRouteBits,
                 input.getIntOr(
-                        ROUTE_BITS_KEY,
-                        PowerDiverterConfig.defaults().routeBits()
+                        FEEDBACK_BLOCKED_ROUTE_BITS_KEY,
+                        PowerDiverterConfig.defaults()
+                                .feedbackBlockedRouteBits()
                 )
         );
         this.initialRecalculationPending = true;

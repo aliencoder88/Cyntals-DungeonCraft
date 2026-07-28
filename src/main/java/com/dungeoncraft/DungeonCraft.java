@@ -331,6 +331,14 @@ public class DungeonCraft implements ModInitializer {
                             .strength(1.5F, 6.0F)
                             .sound(SoundType.STONE)
                             .noOcclusion()
+                            /*
+                             * Panel authorization power terminates at the
+                             * concealed device. Only the lever's explicit
+                             * getSignal output may leave this block.
+                             */
+                            .isRedstoneConductor(
+                                    (state, level, pos) -> false
+                            )
             );
 
     /* Renderer-only models. None of these receives a BlockItem. */
@@ -423,7 +431,7 @@ public class DungeonCraft implements ModInitializer {
     );
 
 
-    // Four-port Power Diverter
+    // Four-port Power Router
     public static final Identifier POWER_DIVERTER_ID =
             Identifier.fromNamespaceAndPath(MOD_ID, "power_diverter");
 
@@ -438,6 +446,8 @@ public class DungeonCraft implements ModInitializer {
                     .setId(POWER_DIVERTER_BLOCK_KEY)
                     .strength(3.0F, 6.0F)
                     .sound(SoundType.METAL)
+                    .noOcclusion()
+                    .isRedstoneConductor((state, level, pos) -> false)
     );
 
     // Stonekeep Hidden Block Lever Item
@@ -840,7 +850,7 @@ public class DungeonCraft implements ModInitializer {
     );
 
 
-    // Four-port Power Diverter Item
+    // Four-port Power Router Item
     public static final Item POWER_DIVERTER_ITEM = new BlockItem(
             POWER_DIVERTER,
             new Item.Properties()
@@ -1388,7 +1398,7 @@ public class DungeonCraft implements ModInitializer {
         );
 
 
-        // Four-port Power Diverter
+        // Four-port Power Router
         Registry.register(
                 BuiltInRegistries.BLOCK,
                 POWER_DIVERTER_ID,

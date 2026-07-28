@@ -20,6 +20,7 @@ import net.minecraft.client.gui.components.AbstractWidget;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.components.EditBox;
 import net.minecraft.client.gui.screens.Screen;
+import net.minecraft.ChatFormatting;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 
@@ -29,7 +30,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Shared Coding Tool screen for levers and the four-port Power Diverter.
+ * Shared Coding Tool screen for levers and the four-port Power Router.
  */
 public class CodingToolScreen extends Screen {
     private static final int PANEL_WIDTH = 300;
@@ -54,10 +55,6 @@ public class CodingToolScreen extends Screen {
         PANEL_WIRING
     }
 
-    private enum DiverterPage {
-        PORT_MODES,
-        ROUTING
-    }
 
     private final BlockPos devicePos;
     private final CodingToolDeviceType deviceType;
@@ -76,23 +73,18 @@ public class CodingToolScreen extends Screen {
 
     private HiddenLeverPage currentHiddenLeverPage =
             HiddenLeverPage.LEVER_OUTPUT;
-    private DiverterPage currentDiverterPage = DiverterPage.PORT_MODES;
     private PowerDiverterPort selectedRouteSource =
             PowerDiverterPort.NORTH;
 
     private final List<AbstractWidget> outputPageWidgets = new ArrayList<>();
     private final List<AbstractWidget> panelPageWidgets = new ArrayList<>();
-    private final List<AbstractWidget> diverterPortPageWidgets =
-            new ArrayList<>();
-    private final List<AbstractWidget> diverterRoutePageWidgets =
+    private final List<AbstractWidget> diverterPageWidgets =
             new ArrayList<>();
 
     private final Map<HiddenLeverOutputFace, Button> outputFaceButtons =
             new EnumMap<>(HiddenLeverOutputFace.class);
     private final Map<HiddenLeverOutputFace, Button> inputFaceButtons =
             new EnumMap<>(HiddenLeverOutputFace.class);
-    private final Map<PowerDiverterPort, Button> diverterPortModeButtons =
-            new EnumMap<>(PowerDiverterPort.class);
     private final Map<PowerDiverterPort, Button> routeDestinationButtons =
             new EnumMap<>(PowerDiverterPort.class);
 
@@ -139,11 +131,9 @@ public class CodingToolScreen extends Screen {
     protected void init() {
         this.outputPageWidgets.clear();
         this.panelPageWidgets.clear();
-        this.diverterPortPageWidgets.clear();
-        this.diverterRoutePageWidgets.clear();
+        this.diverterPageWidgets.clear();
         this.outputFaceButtons.clear();
         this.inputFaceButtons.clear();
-        this.diverterPortModeButtons.clear();
         this.routeDestinationButtons.clear();
 
         this.panelLeft = this.width / 2 - PANEL_WIDTH / 2;
@@ -159,8 +149,6 @@ public class CodingToolScreen extends Screen {
             this.addOutputPageWidgets(buttonX);
         } else if (this.deviceType
                 == CodingToolDeviceType.POWER_DIVERTER) {
-            this.addDiverterTabs(buttonX);
-            this.addDiverterPortModeWidgets(buttonX);
             this.addDiverterRoutingWidgets(buttonX);
         }
 
@@ -220,44 +208,6 @@ public class CodingToolScreen extends Screen {
                                 button -> {
                                     this.currentHiddenLeverPage =
                                             HiddenLeverPage.PANEL_WIRING;
-                                    this.updatePageVisibility();
-                                }
-                        )
-                        .bounds(
-                                buttonX + 134,
-                                this.panelTop + 26,
-                                HALF_BUTTON_WIDTH,
-                                BUTTON_HEIGHT
-                        )
-                        .build()
-        );
-    }
-
-    private void addDiverterTabs(int buttonX) {
-        this.firstTabButton = this.addRenderableWidget(
-                Button.builder(
-                                Component.literal("Port Modes"),
-                                button -> {
-                                    this.currentDiverterPage =
-                                            DiverterPage.PORT_MODES;
-                                    this.updatePageVisibility();
-                                }
-                        )
-                        .bounds(
-                                buttonX,
-                                this.panelTop + 26,
-                                HALF_BUTTON_WIDTH,
-                                BUTTON_HEIGHT
-                        )
-                        .build()
-        );
-
-        this.secondTabButton = this.addRenderableWidget(
-                Button.builder(
-                                Component.literal("Routing"),
-                                button -> {
-                                    this.currentDiverterPage =
-                                            DiverterPage.ROUTING;
                                     this.updatePageVisibility();
                                 }
                         )
@@ -446,46 +396,6 @@ public class CodingToolScreen extends Screen {
         );
     }
 
-    private void addDiverterPortModeWidgets(int buttonX) {
-        int y = this.panelTop + 50;
-
-        for (PowerDiverterPort port : PowerDiverterPort.values()) {
-            Button modeButton = this.addRenderableWidget(
-                    Button.builder(
-                                    this.getDiverterPortModeText(port),
-                                    button -> {
-                                        DiverterPortMode nextMode =
-                                                this.powerDiverterConfig
-                                                        .getPortMode(port)
-                                                        .next();
-                                        this.powerDiverterConfig =
-                                                this.powerDiverterConfig
-                                                        .withPortMode(
-                                                                port,
-                                                                nextMode
-                                                        );
-                                        button.setMessage(
-                                                this.getDiverterPortModeText(
-                                                        port
-                                                )
-                                        );
-                                        this.refreshRouteDestinationButtons();
-                                    }
-                            )
-                            .bounds(
-                                    buttonX,
-                                    y,
-                                    BUTTON_WIDTH,
-                                    BUTTON_HEIGHT
-                            )
-                            .build()
-            );
-            this.diverterPortPageWidgets.add(modeButton);
-            this.diverterPortModeButtons.put(port, modeButton);
-            y += 22;
-        }
-    }
-
     private void addDiverterRoutingWidgets(int buttonX) {
         this.routeSourceButton = this.addRenderableWidget(
                 Button.builder(
@@ -496,9 +406,6 @@ public class CodingToolScreen extends Screen {
                                                     this.selectedRouteSource
                                                             .getIndex() + 1
                                             );
-                                    button.setMessage(
-                                            this.getRouteSourceButtonText()
-                                    );
                                     this.refreshRouteDestinationButtons();
                                 }
                         )
@@ -510,37 +417,47 @@ public class CodingToolScreen extends Screen {
                         )
                         .build()
         );
-        this.diverterRoutePageWidgets.add(this.routeSourceButton);
+        this.diverterPageWidgets.add(this.routeSourceButton);
 
         PowerDiverterPort[] ports = PowerDiverterPort.values();
 
         for (int index = 0; index < ports.length; index++) {
-            PowerDiverterPort destination = ports[index];
+            PowerDiverterPort port = ports[index];
             int column = index % 2;
             int row = index / 2;
 
             Button routeButton = this.addRenderableWidget(
                     Button.builder(
-                                    this.getRouteDestinationText(destination),
+                                    this.getRouteGridButtonText(port),
                                     button -> {
-                                        if (destination
+                                        if (port
                                                 == this.selectedRouteSource) {
-                                            return;
+                                            DiverterPortMode nextMode =
+                                                    this.powerDiverterConfig
+                                                            .getPortMode(port)
+                                                            .next();
+                                            this.powerDiverterConfig =
+                                                    this.powerDiverterConfig
+                                                            .withPortMode(
+                                                                    port,
+                                                                    nextMode
+                                                            );
+                                        } else {
+                                            boolean currentlyEnabled =
+                                                    this.powerDiverterConfig
+                                                            .routesTo(
+                                                                    this.selectedRouteSource,
+                                                                    port
+                                                            );
+                                            this.powerDiverterConfig =
+                                                    this.powerDiverterConfig
+                                                            .withRouteEnabled(
+                                                                    this.selectedRouteSource,
+                                                                    port,
+                                                                    !currentlyEnabled
+                                                            );
                                         }
 
-                                        boolean currentlyEnabled =
-                                                this.powerDiverterConfig
-                                                        .routesTo(
-                                                                this.selectedRouteSource,
-                                                                destination
-                                                        );
-                                        this.powerDiverterConfig =
-                                                this.powerDiverterConfig
-                                                        .withRouteEnabled(
-                                                                this.selectedRouteSource,
-                                                                destination,
-                                                                !currentlyEnabled
-                                                        );
                                         this.refreshRouteDestinationButtons();
                                     }
                             )
@@ -552,8 +469,8 @@ public class CodingToolScreen extends Screen {
                             )
                             .build()
             );
-            this.diverterRoutePageWidgets.add(routeButton);
-            this.routeDestinationButtons.put(destination, routeButton);
+            this.diverterPageWidgets.add(routeButton);
+            this.routeDestinationButtons.put(port, routeButton);
         }
 
         this.refreshRouteDestinationButtons();
@@ -652,16 +569,18 @@ public class CodingToolScreen extends Screen {
     }
 
     private void refreshRouteDestinationButtons() {
+        if (this.routeSourceButton != null) {
+            this.routeSourceButton.setMessage(
+                    this.getRouteSourceButtonText()
+            );
+        }
+
         for (Map.Entry<PowerDiverterPort, Button> entry
                 : this.routeDestinationButtons.entrySet()) {
-            PowerDiverterPort destination = entry.getKey();
+            PowerDiverterPort port = entry.getKey();
             Button button = entry.getValue();
-            boolean isSource = destination == this.selectedRouteSource;
-
-            button.setMessage(
-                    this.getRouteDestinationText(destination)
-            );
-            button.active = !isSource;
+            button.setMessage(this.getRouteGridButtonText(port));
+            button.active = true;
         }
     }
 
@@ -676,41 +595,25 @@ public class CodingToolScreen extends Screen {
                 this.deviceType == CodingToolDeviceType.HIDDEN_BLOCK_LEVER
                         && this.currentHiddenLeverPage
                         == HiddenLeverPage.PANEL_WIRING;
-        boolean diverterPortPageVisible =
-                this.deviceType == CodingToolDeviceType.POWER_DIVERTER
-                        && this.currentDiverterPage
-                        == DiverterPage.PORT_MODES;
-        boolean diverterRoutePageVisible =
-                this.deviceType == CodingToolDeviceType.POWER_DIVERTER
-                        && this.currentDiverterPage
-                        == DiverterPage.ROUTING;
+        boolean diverterPageVisible =
+                this.deviceType == CodingToolDeviceType.POWER_DIVERTER;
 
         this.setWidgetsVisible(this.outputPageWidgets, outputPageVisible);
         this.setWidgetsVisible(this.panelPageWidgets, panelPageVisible);
         this.setWidgetsVisible(
-                this.diverterPortPageWidgets,
-                diverterPortPageVisible
-        );
-        this.setWidgetsVisible(
-                this.diverterRoutePageWidgets,
-                diverterRoutePageVisible
+                this.diverterPageWidgets,
+                diverterPageVisible
         );
 
         if (this.firstTabButton != null) {
-            this.firstTabButton.active =
-                    this.deviceType == CodingToolDeviceType.HIDDEN_BLOCK_LEVER
-                            ? !outputPageVisible
-                            : !diverterPortPageVisible;
+            this.firstTabButton.active = !outputPageVisible;
         }
 
         if (this.secondTabButton != null) {
-            this.secondTabButton.active =
-                    this.deviceType == CodingToolDeviceType.HIDDEN_BLOCK_LEVER
-                            ? !panelPageVisible
-                            : !diverterRoutePageVisible;
+            this.secondTabButton.active = !panelPageVisible;
         }
 
-        if (diverterRoutePageVisible) {
+        if (diverterPageVisible) {
             this.refreshRouteDestinationButtons();
         }
     }
@@ -794,16 +697,6 @@ public class CodingToolScreen extends Screen {
         );
     }
 
-    private Component getDiverterPortModeText(PowerDiverterPort port) {
-        return Component.literal(
-                port.getDisplayName()
-                        + " Port: "
-                        + this.powerDiverterConfig
-                                .getPortMode(port)
-                                .getDisplayName()
-        );
-    }
-
     private Component getRouteSourceButtonText() {
         return Component.literal(
                 "Signal Arrives From: "
@@ -811,22 +704,44 @@ public class CodingToolScreen extends Screen {
         );
     }
 
-    private Component getRouteDestinationText(
-            PowerDiverterPort destination
+    private Component getRouteGridButtonText(
+            PowerDiverterPort port
     ) {
-        if (destination == this.selectedRouteSource) {
+        if (port == this.selectedRouteSource) {
             return Component.literal(
-                    destination.getDisplayName() + ": SOURCE"
+                    "Mode: "
+                            + this.powerDiverterConfig
+                                    .getPortMode(port)
+                                    .getDisplayName()
             );
         }
 
+        boolean requested = this.powerDiverterConfig.routesTo(
+                this.selectedRouteSource,
+                port
+        );
+
+        if (!requested) {
+            return Component.literal(
+                    port.getDisplayName() + ": OFF"
+            );
+        }
+
+        if (this.powerDiverterConfig.isRouteBlocked(
+                this.selectedRouteSource,
+                port
+        )) {
+            return Component.literal(
+                            port.getDisplayName() + ": ROUTE"
+                    )
+                    .append(
+                            Component.literal(" !")
+                                    .withStyle(ChatFormatting.RED)
+                    );
+        }
+
         return Component.literal(
-                destination.getDisplayName()
-                        + ": "
-                        + (this.powerDiverterConfig.routesTo(
-                                this.selectedRouteSource,
-                                destination
-                        ) ? "ROUTE" : "OFF")
+                port.getDisplayName() + ": ROUTE"
         );
     }
 
@@ -834,7 +749,7 @@ public class CodingToolScreen extends Screen {
         return switch (this.deviceType) {
             case HIDDEN_BLOCK_LEVER -> "Hidden Block Lever";
             case IRON_LEVER -> "Iron Lever";
-            case POWER_DIVERTER -> "Power Diverter";
+            case POWER_DIVERTER -> "Power Router";
         };
     }
 
@@ -872,11 +787,7 @@ public class CodingToolScreen extends Screen {
         );
 
         if (this.deviceType == CodingToolDeviceType.POWER_DIVERTER) {
-            if (this.currentDiverterPage == DiverterPage.PORT_MODES) {
-                this.drawDiverterPortModeText(graphics);
-            } else {
-                this.drawDiverterRoutingText(graphics);
-            }
+            this.drawDiverterRoutingText(graphics);
         } else {
             boolean outputPageVisible =
                     this.deviceType == CodingToolDeviceType.IRON_LEVER
@@ -997,42 +908,16 @@ public class CodingToolScreen extends Screen {
         );
     }
 
-    private void drawDiverterPortModeText(
-            GuiGraphicsExtractor graphics
-    ) {
-        this.drawCenteredText(
-                graphics,
-                "Each horizontal face can receive, send, do both, or be off.",
-                this.panelTop + 151,
-                TEXT_COLOR,
-                false
-        );
-        this.drawCenteredText(
-                graphics,
-                "North / East / South / West are world directions.",
-                this.panelTop + 168,
-                MUTED_TEXT_COLOR,
-                false
-        );
-        this.drawCenteredText(
-                graphics,
-                "New blocks start disabled so placement cannot power a loop.",
-                this.panelTop + 185,
-                MUTED_TEXT_COLOR,
-                false
-        );
-        this.drawCenteredText(
-                graphics,
-                "Regular redstone routes now; verified provenance comes later.",
-                this.panelTop + 202,
-                WARNING_COLOR,
-                false
-        );
-    }
-
     private void drawDiverterRoutingText(
             GuiGraphicsExtractor graphics
     ) {
+        this.drawCenteredText(
+                graphics,
+                "Routing and port modes",
+                this.panelTop + 32,
+                TEXT_COLOR,
+                false
+        );
         this.drawCenteredText(
                 graphics,
                 "Send that incoming signal to:",
@@ -1044,8 +929,8 @@ public class CodingToolScreen extends Screen {
         DiverterPortMode sourceMode = this.powerDiverterConfig
                 .getPortMode(this.selectedRouteSource);
         String sourceStatus = sourceMode.acceptsInput()
-                ? "Source port accepts input."
-                : "Source port mode does not currently accept input.";
+                ? "Selected source accepts incoming power."
+                : "Selected source cannot receive power.";
         int sourceColor = sourceMode.acceptsInput()
                 ? MUTED_TEXT_COLOR
                 : WARNING_COLOR;
@@ -1059,21 +944,21 @@ public class CodingToolScreen extends Screen {
         );
         this.drawCenteredText(
                 graphics,
-                "A source never routes directly back to itself.",
+                "Red ! = requested route cannot carry power.",
                 this.panelTop + 165,
                 MUTED_TEXT_COLOR,
                 false
         );
         this.drawCenteredText(
                 graphics,
-                "A selected destination must also allow output.",
+                "Check port modes or reverse-route feedback.",
                 this.panelTop + 182,
                 MUTED_TEXT_COLOR,
                 false
         );
         this.drawCenteredText(
                 graphics,
-                "Direct diverter loops use visited-path and hop protection.",
+                "Disabled ports clear connected routes when saved.",
                 this.panelTop + 199,
                 MUTED_TEXT_COLOR,
                 false
@@ -1115,6 +1000,11 @@ public class CodingToolScreen extends Screen {
                         ? this.panelRequiredKey
                         : this.panelRequiredKeyBox.getValue()
         );
+
+        if (this.deviceType == CodingToolDeviceType.POWER_DIVERTER) {
+            this.powerDiverterConfig =
+                    this.powerDiverterConfig.normalizedForSave();
+        }
 
         CodingToolAdvancedConfig advancedConfig =
                 new CodingToolAdvancedConfig(

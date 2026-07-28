@@ -3,16 +3,16 @@ package com.dungeoncraft.config;
 import net.minecraft.core.Direction;
 
 /**
- * The Power Diverter has four equal horizontal ports.
+ * The Power Router has four equal horizontal ports.
  *
- * Port names are world-cardinal directions so a symmetric block does not need
- * a privileged front face. Up and down are not ports in this first version.
+ * Labels are fixed to world directions so the block does not rotate:
+ * 1 = North, 2 = East, 3 = South, and 4 = West. Up and down are not ports.
  */
 public enum PowerDiverterPort {
-    NORTH(0, Direction.NORTH, "North"),
-    EAST(1, Direction.EAST, "East"),
-    SOUTH(2, Direction.SOUTH, "South"),
-    WEST(3, Direction.WEST, "West");
+    NORTH(0, Direction.NORTH, "1 (North)"),
+    EAST(1, Direction.EAST, "2 (East)"),
+    SOUTH(2, Direction.SOUTH, "3 (South)"),
+    WEST(3, Direction.WEST, "4 (West)");
 
     private final int index;
     private final Direction direction;
